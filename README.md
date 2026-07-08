@@ -62,3 +62,36 @@ The benchmark reports success rate, distance, target travel time, lane changes, 
 
 Optimized trajectories can be exported to SUMO for visual inspection, frame generation, and video creation.
 
+
+### Citation
+
+If you use this software in your research, please cite:
+
+> M. Hasanzadeh and A. Kargarian, “Urban-Driving Optimal Planning for HVs with Integrated Lane-Change, Intersection, Safety, and Powertrain Constraints.”
+
+---
+
+### Authors
+
+**Milad Hasanzadeh**
+Department of Electrical and Computer Engineering
+Louisiana State University
+Email: [mhasa42@lsu.edu](mailto:mhasa42@lsu.edu)
+
+**Amin Kargarian**
+Department of Electrical and Computer Engineering
+Louisiana State University
+Email: [kargarian@lsu.edu](mailto:kargarian@lsu.edu)
+
+---
+
+### License
+
+Academic and research use only.
+
+---
+
+### Release Information
+
+Release date: July 2026
+
