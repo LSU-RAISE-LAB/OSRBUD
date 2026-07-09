@@ -1,0 +1,7 @@
+No module named 'openpyxl'
+Traceback (most recent call last):
+  File "C:\Users\mhasa42\AppData\Local\Temp\ipykernel_35196\3606143369.py", line 6186, in _write_reporting_summary_tables
+    with pd.ExcelWriter(xlsx, engine="openpyxl") as writer:
+  File "C:\Users\mhasa42\AppData\Local\anaconda3\envs\raiselab\lib\site-packages\pandas\io\excel\_openpyxl.py", line 57, in __init__
+    from openpyxl.workbook import Workbook
+ModuleNotFoundError: No module named 'openpyxl'
