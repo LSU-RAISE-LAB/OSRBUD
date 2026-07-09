@@ -1,0 +1,319 @@
+================================================================================================
+PAPER-READY DRIVING SCENARIO RUN
+================================================================================================
+Run ID       : S002
+Initial lane : 1
+Output root  : C:\Users\mhasa42\Desktop\test\paper_ready_runs\S002
+================================================================================================
+
+Scenario: S002 - slow_lead_overtake_then_signal
+Description: Feasibility-aware highway scenario with realistic spacing between intersections.
+Intended behavior: Plan lane changes and eco-driving while respecting separated stop-controlled and signalized intersections.
+
+Saving paper-ready input/data plots...
+Input plots folder: C:\Users\mhasa42\Desktop\test\paper_ready_runs\S002\02_input_plots
+
+Building and solving the Gurobi planning problem...
+Solve complete.
+
+==============================================================================================================
+Scenario: S002 - slow_lead_overtake_then_signal
+Model   : quasi-static parallel hybrid-vehicle eco-driving
+==============================================================================================================
+SOLVER / OPTIMALITY
+--------------------------------------------------------------------------------------------------------------
+Solver status        : OPTIMAL
+Status code          : 2
+MIP gap              : 5.706e-05
+Runtime              : 5.300 s
+Lexicographic result : OPTIMAL at all four levels if no RuntimeError was raised
+
+LEXICOGRAPHIC OBJECTIVE VALUES
+--------------------------------------------------------------------------------------------------------------
+Level 1: J_safe* = 0
+Level 2: J_perm* = 0
+Level 3: J_dyn*  = 0
+Level 4: J_eco*  = -3198.13573
+
+HYBRID ENERGY / FUEL SUMMARY
+--------------------------------------------------------------------------------------------------------------
+Fuel is consumed only by the engine. The motor uses or charges battery energy.
+
+Total fuel used                    : 0.054123174 kg
+Total fuel used                    : 54.123174 g
+Initial SOC                        : 0.600000 [-] = 60.000 %
+Final SOC                          : 0.595289 [-] = 59.529 %
+Target SOC                         : 0.595000 [-] = 59.500 %
+SOC change                         : -0.004711 [-]
+
+Equivalent-energy metrics:
+  Fuel energy                      : 0.646471 kWh
+  Battery discharge energy         : 0.023555 kWh
+  Equivalent energy                : 0.670026 kWh
+  Equivalent energy per km         : 0.606537 kWh/km
+  Braking-loss proxy               : 0.131507 kWh
+
+Wheel energy demand                : 0.206143 kWh
+Engine mechanical energy           : 0.202870 kWh
+Motor discharge energy             : 0.021200 kWh
+Motor charging/regeneration energy : 0.000000 kWh
+Net battery energy, positive=used  : 0.023555 kWh
+Mechanical braking energy proxy    : 0.131507 kWh
+
+Max engine power                   : 47.195161 kW
+Max motor discharge power          : 11.191934 kW
+Max motor charge power             : 0.000022 kW
+Max battery power                  : 12.435475 kW
+Min battery power                  : -0.000003 kW
+
+SOFT-CONSTRAINT VIOLATION SUMMARY
+--------------------------------------------------------------------------------------------------------------
+Positive slack means the nominal/soft requirement was violated.
+Hard safety constraints are checked separately below.
+
+Nominal safety-margin violations:
+  total slack = 0
+  max slack   = 0
+  count       = 0
+
+Lane-rule / permission violations:
+  total slack = 0
+  max slack   = 0
+  count       = 0
+
+Dynamic-comfort violations:
+  total slack = 0
+  max slack   = 0
+  count       = 0
+
+  acceleration-bound slack total = 0
+  acceleration-bound slack max   = 0
+  acceleration-bound slack count = 0
+  jerk-bound slack total         = 0
+  jerk-bound slack max           = 0
+  jerk-bound slack count         = 0
+
+HARD-CONSTRAINT CHECKS
+--------------------------------------------------------------------------------------------------------------
+Values should be near zero. Positive values indicate numerical/hard-constraint violation.
+speed_cap_max_violation                         : 0.000000000e+00
+hard_current_lane_safety_max_violation          : 0.000000000e+00
+hard_lane_change_safety_max_violation           : 0.000000000e+00
+raw_acc_bound_violation_before_slack            : 0.000000000e+00
+raw_jerk_bound_violation_before_slack           : 0.000000000e+00
+SOC_max_violation                               : 0.000000000e+00
+NS_stop_speed_max_violation                     : 0.000000000e+00
+NS_no_cross_max_violation                       : 0.000000000e+00
+SIG_entry_safe_to_clear_max_violation           : 0.000000000e+00
+SIG_position_consistency_max_violation          : 0.000000000e+00
+SIG_stopping_feasibility_max_violation          : 0.000000000e+00
+SIG_downstream_clearance_max_violation          : 0.000000000e+00
+
+LANE SEQUENCE
+--------------------------------------------------------------------------------------------------------------
+  step  0: lane 1
+  step  1: lane 2
+  step  2: lane 3
+  step  3: lane 3
+  step  4: lane 3
+  step  5: lane 3
+  step  6: lane 3
+  step  7: lane 3
+  step  8: lane 3
+  step  9: lane 3
+  step 10: lane 3
+  step 11: lane 3
+  step 12: lane 3
+  step 13: lane 3
+  step 14: lane 3
+  step 15: lane 3
+  step 16: lane 3
+  step 17: lane 3
+  step 18: lane 3
+  step 19: lane 3
+  step 20: lane 3
+  step 21: lane 3
+  step 22: lane 3
+  step 23: lane 3
+  step 24: lane 3
+  step 25: lane 3
+  step 26: lane 3
+  step 27: lane 3
+  step 28: lane 3
+  step 29: lane 3
+  step 30: lane 3
+  step 31: lane 3
+  step 32: lane 3
+  step 33: lane 2
+  step 34: lane 2
+  step 35: lane 2
+  step 36: lane 2
+  step 37: lane 2
+  step 38: lane 2
+  step 39: lane 2
+  step 40: lane 2
+  step 41: lane 2
+  step 42: lane 2
+  step 43: lane 2
+  step 44: lane 2
+  step 45: lane 2
+  step 46: lane 2
+  step 47: lane 2
+  step 48: lane 2
+  step 49: lane 2
+  step 50: lane 2
+  step 51: lane 1
+  step 52: lane 1
+  step 53: lane 1
+  step 54: lane 1
+  step 55: lane 1
+  step 56: lane 1
+  step 57: lane 1
+  step 58: lane 1
+  step 59: lane 1
+  step 60: lane 1
+  step 61: lane 1
+  step 62: lane 1
+  step 63: lane 1
+  step 64: lane 1
+  step 65: lane 1
+  step 66: lane 1
+  step 67: lane 1
+  step 68: lane 1
+  step 69: lane 1
+  step 70: lane 1
+
+LANE CHANGES
+--------------------------------------------------------------------------------------------------------------
+  step 0->1: LEFT 1->2
+  step 1->2: LEFT 2->3
+  step 32->33: RIGHT 3->2
+  step 50->51: RIGHT 2->1
+
+UNSIGNALIZED INTERSECTIONS
+--------------------------------------------------------------------------------------------------------------
+  NS 1: chosen stop-start step = 19, q = 0, tau = 1, active stopped steps = [19], range = [301.0, 319.0]
+
+SIGNALIZED INTERSECTIONS
+--------------------------------------------------------------------------------------------------------------
+  SIG 1: chosen entry step = 38, lane = 2, G = 1, Gamma = 1, B_clear = 1, control zone = [564.0, 586.0], approach starts at 474.0
+        candidate/check steps = [24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42]
+        q_go active steps     = [32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42]
+        rSIG active steps     = [39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70]
+
+TRAJECTORY AND POWERTRAIN TABLE
+--------------------------------------------------------------------------------------------------------------
+  k | lane |      s[m] |    v[m/s] |   a[m/s2] | Pe[kW] | Pm+[kW] | Pm-[kW] | Pb[kW] | SOC[-] | fuel[g]
+--------------------------------------------------------------------------------------------------------------
+  0 |    1 |     0.000 |    19.000 |     0.965 | 36.527 |   0.000 |   0.000 | -0.000 | 0.6000 |  0.0000
+  1 |    2 |    19.000 |    19.965 |     0.815 | 33.781 |   0.000 |   0.000 | -0.000 | 0.6000 |  2.6569
+  2 |    3 |    38.965 |    20.780 |     0.596 | 28.035 |   0.000 |   0.000 | -0.000 | 0.6000 |  5.1216
+  3 |    3 |    59.745 |    21.376 |     0.348 | 20.386 |   0.000 |   0.000 | -0.000 | 0.6000 |  7.1840
+  4 |    3 |    81.121 |    21.724 |     0.087 | 11.587 |   0.000 |   0.000 | -0.000 | 0.6000 |  8.7111
+  5 |    3 |   102.846 |    21.811 |    -0.177 |  0.000 |   2.242 |   0.000 |  2.491 | 0.6000 |  9.6221
+  6 |    3 |   124.657 |    21.634 |    -0.426 |  0.000 |   0.000 |   0.000 |  0.000 | 0.5999 |  9.6221
+  7 |    3 |   146.291 |    21.208 |    -0.689 |  0.000 |   0.000 |   0.000 |  0.000 | 0.5999 |  9.6221
+  8 |    3 |   167.499 |    20.519 |    -0.959 |  0.000 |   0.000 |   0.000 |  0.000 | 0.5999 |  9.6221
+  9 |    3 |   188.018 |    19.560 |    -1.230 |  0.000 |   0.000 |   0.000 |  0.000 | 0.5999 |  9.6221
+ 10 |    3 |   207.578 |    18.330 |    -1.502 |  0.000 |   0.000 |   0.000 |  0.000 | 0.5999 |  9.6221
+ 11 |    3 |   225.908 |    16.828 |    -1.771 |  0.000 |   0.000 |   0.000 |  0.000 | 0.5999 |  9.6221
+ 12 |    3 |   242.737 |    15.057 |    -2.033 |  0.000 |   0.000 |   0.000 |  0.000 | 0.5999 |  9.6221
+ 13 |    3 |   257.794 |    13.025 |    -2.279 |  0.000 |   0.000 |   0.000 |  0.000 | 0.5999 |  9.6221
+ 14 |    3 |   270.819 |    10.745 |    -2.490 |  0.000 |   0.000 |   0.000 |  0.000 | 0.5999 |  9.6221
+ 15 |    3 |   281.564 |     8.255 |    -2.623 |  0.000 |   0.000 |   0.000 |  0.000 | 0.5999 |  9.6221
+ 16 |    3 |   289.819 |     5.632 |    -2.583 |  0.000 |   0.000 |   0.000 |  0.000 | 0.5999 |  9.6221
+ 17 |    3 |   295.451 |     3.049 |    -2.160 |  0.000 |   0.000 |   0.000 |  0.000 | 0.5999 |  9.6221
+ 18 |    3 |   298.500 |     0.888 |    -0.888 |  0.000 |   0.000 |   0.000 |  0.000 | 0.5999 |  9.6221
+ 19 |    3 |   299.388 |     0.000 |     1.112 |  0.000 |   0.000 |   0.000 |  0.000 | 0.5999 |  9.6221
+ 20 |    3 |   299.388 |     1.112 |     2.000 |  0.000 |   3.808 |   0.000 |  4.231 | 0.5999 |  9.6221
+ 21 |    3 |   300.500 |     3.112 |     2.000 | 10.667 |   0.000 |   0.000 | -0.000 | 0.5996 |  9.6221
+ 22 |    3 |   303.612 |     5.112 |     2.000 | 17.553 |   0.000 |   0.000 | -0.000 | 0.5996 | 10.4688
+ 23 |    3 |   308.723 |     7.112 |     2.000 | 24.487 |   0.000 |   0.000 | -0.000 | 0.5996 | 11.7975
+ 24 |    3 |   315.835 |     9.112 |     2.000 | 31.489 |   0.000 |   0.000 | -0.000 | 0.5996 | 13.6116
+ 25 |    3 |   324.946 |    11.112 |     2.000 | 38.581 |   0.000 |   0.000 | -0.000 | 0.5996 | 15.9158
+ 26 |    3 |   336.058 |    13.112 |     1.965 | 45.036 |   0.000 |   0.000 | -0.000 | 0.5996 | 18.7165
+ 27 |    3 |   349.169 |    15.077 |     1.764 | 47.195 |   0.000 |   0.000 | -0.000 | 0.5996 | 21.9690
+ 28 |    3 |   364.246 |    16.841 |     1.489 | 45.546 |   0.000 |   0.000 | -0.000 | 0.5996 | 25.3727
+ 29 |    3 |   381.087 |    18.330 |     1.180 | 40.734 |   0.000 |   0.000 | -0.000 | 0.5996 | 28.6609
+ 30 |    3 |   399.417 |    19.510 |     0.857 | 33.419 |   0.000 |   0.000 | -0.000 | 0.5996 | 31.6122
+ 31 |    3 |   418.927 |    20.367 |     0.528 | 24.238 |   0.000 |   0.000 | -0.000 | 0.5996 | 34.0515
+ 32 |    3 |   439.293 |    20.894 |     0.199 | 13.832 |   0.000 |   0.000 | -0.000 | 0.5996 | 35.8482
+ 33 |    2 |   460.188 |    21.093 |    -0.124 |  0.000 |   2.890 |   0.000 |  3.211 | 0.5996 | 36.9164
+ 34 |    2 |   481.281 |    20.969 |    -0.422 |  0.000 |   0.000 |   0.000 |  0.000 | 0.5994 | 36.9164
+ 35 |    2 |   502.250 |    20.547 |    -0.713 |  0.000 |   0.000 |   0.000 |  0.000 | 0.5994 | 36.9164
+ 36 |    2 |   522.797 |    19.834 |    -0.966 |  0.000 |   0.000 |   0.000 |  0.000 | 0.5994 | 36.9164
+ 37 |    2 |   542.631 |    18.869 |    -1.125 |  0.000 |   0.000 |   0.000 |  0.000 | 0.5994 | 36.9164
+ 38 |    2 |   561.500 |    17.744 |    -1.072 | -0.000 |   0.000 |   0.000 |  0.000 | 0.5994 | 36.9164
+ 39 |    2 |   579.244 |    16.672 |    -0.923 |  0.000 |   0.000 |   0.000 |  0.000 | 0.5994 | 36.9164
+ 40 |    2 |   595.915 |    15.749 |    -0.732 |  0.000 |   0.000 |   0.000 |  0.000 | 0.5994 | 36.9164
+ 41 |    2 |   611.664 |    15.017 |    -0.523 |  0.000 |   0.000 |   0.000 |  0.000 | 0.5994 | 36.9164
+ 42 |    2 |   626.680 |    14.493 |    -0.310 |  0.000 |   0.000 |   0.000 |  0.000 | 0.5994 | 36.9164
+ 43 |    2 |   641.174 |    14.183 |    -0.103 |  0.000 |   1.012 |   0.000 |  1.124 | 0.5994 | 36.9164
+ 44 |    2 |   655.357 |    14.081 |     0.115 |  0.000 |   6.004 |   0.000 |  6.671 | 0.5994 | 36.9164
+ 45 |    2 |   669.438 |    14.196 |     0.336 |  0.000 |  11.192 |   0.000 | 12.435 | 0.5990 | 36.9164
+ 46 |    2 |   683.633 |    14.532 |     0.553 | 16.670 |   0.000 |   0.000 | -0.000 | 0.5983 | 36.9164
+ 47 |    2 |   698.165 |    15.084 |     0.750 | 22.267 |   0.000 |   0.000 | -0.000 | 0.5983 | 38.1833
+ 48 |    2 |   713.249 |    15.834 |     0.905 | 27.550 |   0.000 |   0.000 | -0.000 | 0.5983 | 39.8421
+ 49 |    2 |   729.083 |    16.738 |     0.392 | 15.360 |   0.000 |   0.000 | -0.000 | 0.5983 | 41.8706
+ 50 |    2 |   745.821 |    17.130 |    -0.130 |  0.000 |   1.254 |   0.000 |  1.393 | 0.5983 | 43.0458
+ 51 |    1 |   762.952 |    17.000 |    -0.000 |  0.000 |   4.837 |   0.000 |  5.375 | 0.5982 | 43.0458
+ 52 |    1 |   779.952 |    17.000 |     0.000 |  0.000 |   4.853 |   0.000 |  5.393 | 0.5979 | 43.0458
+ 53 |    1 |   796.952 |    17.000 |     0.000 |  0.000 |   4.869 |   0.000 |  5.410 | 0.5976 | 43.0458
+ 54 |    1 |   813.952 |    17.000 |     0.000 |  0.000 |   4.885 |   0.000 |  5.428 | 0.5973 | 43.0458
+ 55 |    1 |   830.952 |    17.000 |     0.000 |  0.000 |   4.901 |   0.000 |  5.446 | 0.5970 | 43.0458
+ 56 |    1 |   847.952 |    17.000 |     0.000 |  0.000 |   4.917 |   0.000 |  5.464 | 0.5967 | 43.0458
+ 57 |    1 |   864.952 |    17.000 |     0.000 |  0.000 |   4.933 |   0.000 |  5.481 | 0.5964 | 43.0458
+ 58 |    1 |   881.952 |    17.000 |     0.000 |  0.000 |   4.949 |   0.000 |  5.499 | 0.5961 | 43.0458
+ 59 |    1 |   898.952 |    17.000 |    -0.000 |  0.000 |   4.965 |   0.000 |  5.517 | 0.5958 | 43.0458
+ 60 |    1 |   915.952 |    17.000 |    -0.042 |  0.000 |   3.804 |   0.000 |  4.227 | 0.5955 | 43.0458
+ 61 |    1 |   932.952 |    16.958 |     0.042 |  6.148 |   0.000 |   0.000 | -0.000 | 0.5953 | 43.0458
+ 62 |    1 |   949.909 |    17.000 |     1.301 | 41.084 |   0.000 |   0.000 | -0.000 | 0.5953 | 43.5761
+ 63 |    1 |   966.909 |    18.301 |     1.163 | 40.488 |   0.000 |   0.000 | -0.000 | 0.5953 | 46.5520
+ 64 |    1 |   985.211 |    19.465 |     0.535 | 23.529 |   0.000 |   0.000 | -0.000 | 0.5953 | 49.4862
+ 65 |    1 |  1004.675 |    20.000 |     0.000 |  6.919 |   0.000 |   0.000 | -0.000 | 0.5953 | 51.2332
+ 66 |    1 |  1024.675 |    20.000 |    -0.000 |  6.938 |   0.000 |   0.000 | -0.000 | 0.5953 | 51.8175
+ 67 |    1 |  1044.675 |    20.000 |     0.000 |  6.956 |   0.000 |   0.000 | -0.000 | 0.5953 | 52.4032
+ 68 |    1 |  1064.675 |    20.000 |    -0.000 |  6.975 |   0.000 |   0.000 | -0.000 | 0.5953 | 52.9901
+ 69 |    1 |  1084.675 |    20.000 |    -0.020 |  6.354 |   0.000 |   0.000 | -0.000 | 0.5953 | 53.5784
+ 70 |    1 |  1104.675 |    19.980 |           |        |         |         |        | 0.5953 | 54.1232
+==============================================================================================================
+
+Saving paper-ready optimal-solution plots...
+Solution plots folder: C:\Users\mhasa42\Desktop\test\paper_ready_runs\S002\03_solution_plots
+
+Saving scenario data, solution, trajectory CSV, and summary metrics...
+Data folder: C:\Users\mhasa42\Desktop\test\paper_ready_runs\S002\01_data
+Summary folder: C:\Users\mhasa42\Desktop\test\paper_ready_runs\S002\05_summary
+Equivalent energy      : 0.670026 kWh
+Equivalent energy/km   : 0.606537 kWh/km
+Distance               : 1104.675 m
+
+Generating SUMO package in ordered 04_sumo folder...
+================================================================================================
+Realistic SUMO replay package generated
+================================================================================================
+Scenario      : S002 - slow_lead_overtake_then_signal
+Style version : realistic_v2_signalized_intersections
+Output folder : C:\Users\mhasa42\Desktop\test\paper_ready_runs\S002\04_sumo
+Offset        : 202.000 m
+Road length   : 2220.000 m
+Lane width    : 5.000 m
+Video name    : S002_sumo_video.mp4
+Run:
+  cd "C:\Users\mhasa42\Desktop\test\paper_ready_runs\S002\04_sumo"
+  python replay_sumo.py
+================================================================================================
+SUMO package folder: C:\Users\mhasa42\Desktop\test\paper_ready_runs\S002\04_sumo
+SUMO status: {'sumo_dir': 'C:\\Users\\mhasa42\\Desktop\\test\\paper_ready_runs\\S002\\04_sumo', 'replay_script': 'C:\\Users\\mhasa42\\Desktop\\test\\paper_ready_runs\\S002\\04_sumo\\replay_sumo.py', 'video_path': 'C:\\Users\\mhasa42\\Desktop\\test\\paper_ready_runs\\S002\\04_sumo\\S002_sumo_video.mp4', 'video_exists': True, 'video_size_bytes': 357964, 'ok': True, 'message': 'Video created by replay_sumo.py.', 'backend': 'replay_sumo.py', 'python_used': 'C:\\Users\\mhasa42\\AppData\\Local\\anaconda3\\envs\\raiselab\\python.exe', 'returncode': 0, 'stdout_log': 'C:\\Users\\mhasa42\\Desktop\\test\\paper_ready_runs\\S002\\04_sumo\\sumo_replay_stdout.txt', 'stderr_log': 'C:\\Users\\mhasa42\\Desktop\\test\\paper_ready_runs\\S002\\04_sumo\\sumo_replay_stderr.txt', 'diagnostics_txt': 'C:\\Users\\mhasa42\\Desktop\\test\\paper_ready_runs\\S002\\04_sumo\\video_diagnostics.txt', 'diagnostics_json': 'C:\\Users\\mhasa42\\Desktop\\test\\paper_ready_runs\\S002\\04_sumo\\video_diagnostics.json', 'batch_file': 'C:\\Users\\mhasa42\\Desktop\\test\\paper_ready_runs\\S002\\04_sumo\\run_replay_here.bat', 'mp4_candidates': ['C:\\Users\\mhasa42\\Desktop\\test\\paper_ready_runs\\S002\\04_sumo\\S002_sumo_video.mp4'], 'frame_candidates': [], 'frames_dir': None, 'num_frames': 0, 'errors': []}
+
+================================================================================================
+RUN FINISHED
+================================================================================================
+root           : C:\Users\mhasa42\Desktop\test\paper_ready_runs\S002
+logs           : C:\Users\mhasa42\Desktop\test\paper_ready_runs\S002\00_logs
+data           : C:\Users\mhasa42\Desktop\test\paper_ready_runs\S002\01_data
+input_plots    : C:\Users\mhasa42\Desktop\test\paper_ready_runs\S002\02_input_plots
+solution_plots : C:\Users\mhasa42\Desktop\test\paper_ready_runs\S002\03_solution_plots
+sumo           : C:\Users\mhasa42\Desktop\test\paper_ready_runs\S002\04_sumo
+summary        : C:\Users\mhasa42\Desktop\test\paper_ready_runs\S002\05_summary
+================================================================================================

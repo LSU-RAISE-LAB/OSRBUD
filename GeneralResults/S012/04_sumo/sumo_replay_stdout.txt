@@ -1,0 +1,104 @@
+
+
+===== RUN WITH C:\Users\mhasa42\AppData\Local\anaconda3\envs\raiselab\python.exe =====
+Realistic SUMO replay step 0/88: k=0   t=0.0s   ego lane=1   v=17.4 m/s   next SIG 1: RED, not safe-to-clear, distance=173.5 m
+Realistic SUMO replay step 1/88: k=1   t=1.0s   ego lane=1   v=15.1 m/s   next SIG 1: RED, not safe-to-clear, distance=156.2 m
+Realistic SUMO replay step 2/88: k=2   t=2.0s   ego lane=1   v=12.9 m/s   next SIG 1: RED, not safe-to-clear, distance=141.1 m
+Realistic SUMO replay step 3/88: k=3   t=3.0s   ego lane=1   v=11.0 m/s   next SIG 1: RED, not safe-to-clear, distance=128.2 m
+Realistic SUMO replay step 4/88: k=4   t=4.0s   ego lane=2   v=9.3 m/s   next SIG 1: RED, not safe-to-clear, distance=117.2 m
+Realistic SUMO replay step 5/88: k=5   t=5.0s   ego lane=3   v=7.9 m/s   next SIG 1: RED, not safe-to-clear, distance=107.9 m
+Realistic SUMO replay step 6/88: k=6   t=6.0s   ego lane=4   v=6.7 m/s   next SIG 1: RED, not safe-to-clear, distance=100.0 m
+Realistic SUMO replay step 7/88: k=7   t=7.0s   ego lane=5   v=5.8 m/s   next SIG 1: RED, not safe-to-clear, distance=93.3 m
+Realistic SUMO replay step 8/88: k=8   t=8.0s   ego lane=5   v=5.1 m/s   next SIG 1: RED, not safe-to-clear, distance=87.5 m
+Realistic SUMO replay step 9/88: k=9   t=9.0s   ego lane=5   v=4.8 m/s   next SIG 1: RED, not safe-to-clear, distance=82.4 m
+Realistic SUMO replay step 10/88: k=10   t=10.0s   ego lane=5   v=4.7 m/s   next SIG 1: RED, not safe-to-clear, distance=77.6 m
+Realistic SUMO replay step 11/88: k=11   t=11.0s   ego lane=5   v=4.8 m/s   next SIG 1: RED, not safe-to-clear, distance=73.0 m
+Realistic SUMO replay step 12/88: k=12   t=12.0s   ego lane=5   v=5.2 m/s   next SIG 1: RED, not safe-to-clear, distance=68.2 m
+Realistic SUMO replay step 13/88: k=13   t=13.0s   ego lane=5   v=5.9 m/s   next SIG 1: RED, not safe-to-clear, distance=62.9 m
+Realistic SUMO replay step 14/88: k=14   t=14.0s   ego lane=5   v=6.9 m/s   next SIG 1: RED, not safe-to-clear, distance=57.0 m
+Realistic SUMO replay step 15/88: k=15   t=15.0s   ego lane=5   v=8.1 m/s   next SIG 1: RED, not safe-to-clear, distance=50.2 m
+Realistic SUMO replay step 16/88: k=16   t=16.0s   ego lane=5   v=9.5 m/s   next SIG 1: RED, not safe-to-clear, distance=42.1 m
+Realistic SUMO replay step 17/88: k=17   t=17.0s   ego lane=5   v=11.3 m/s   next SIG 1: RED, not safe-to-clear, distance=32.5 m
+Realistic SUMO replay step 18/88: k=18   t=18.0s   ego lane=5   v=13.3 m/s   next SIG 1: GREEN, safe-to-clear, distance=21.3 m
+Realistic SUMO replay step 19/88: k=19   t=19.0s   ego lane=5   v=15.3 m/s   next SIG 1: GREEN, safe-to-clear, distance=8.0 m
+Realistic SUMO replay step 20/88: k=20   t=20.0s   ego lane=5   v=17.3 m/s   next SIG 1: GREEN, safe-to-clear, distance=-7.3 m
+Realistic SUMO replay step 21/88: k=21   t=21.0s   ego lane=5   v=19.3 m/s   next SIG 2: RED, not safe-to-clear, distance=258.4 m
+Realistic SUMO replay step 22/88: k=22   t=22.0s   ego lane=5   v=21.3 m/s   next SIG 2: RED, not safe-to-clear, distance=239.1 m
+Realistic SUMO replay step 23/88: k=23   t=23.0s   ego lane=5   v=22.7 m/s   next SIG 2: RED, not safe-to-clear, distance=217.8 m
+Realistic SUMO replay step 24/88: k=24   t=24.0s   ego lane=5   v=23.4 m/s   next SIG 2: RED, not safe-to-clear, distance=195.1 m
+Realistic SUMO replay step 25/88: k=25   t=25.0s   ego lane=5   v=23.6 m/s   next SIG 2: RED, not safe-to-clear, distance=171.7 m
+Realistic SUMO replay step 26/88: k=26   t=26.0s   ego lane=5   v=23.6 m/s   next SIG 2: RED, not safe-to-clear, distance=148.1 m
+Realistic SUMO replay step 27/88: k=27   t=27.0s   ego lane=5   v=23.6 m/s   next SIG 2: RED, not safe-to-clear, distance=124.6 m
+Realistic SUMO replay step 28/88: k=28   t=28.0s   ego lane=5   v=23.6 m/s   next SIG 2: GREEN, safe-to-clear, distance=101.0 m
+Realistic SUMO replay step 29/88: k=29   t=29.0s   ego lane=5   v=23.4 m/s   next SIG 2: GREEN, safe-to-clear, distance=77.5 m
+Realistic SUMO replay step 30/88: k=30   t=30.0s   ego lane=5   v=22.6 m/s   next SIG 2: GREEN, safe-to-clear, distance=54.1 m
+Realistic SUMO replay step 31/88: k=31   t=31.0s   ego lane=5   v=21.0 m/s   next SIG 2: GREEN, safe-to-clear, distance=31.5 m
+Realistic SUMO replay step 32/88: k=32   t=32.0s   ego lane=4   v=18.9 m/s   next SIG 2: GREEN, safe-to-clear, distance=10.5 m
+Realistic SUMO replay step 33/88: k=33   t=33.0s   ego lane=4   v=16.5 m/s   next SIG 2: GREEN, safe-to-clear, distance=-8.4 m
+Realistic SUMO replay step 34/88: k=34   t=34.0s   ego lane=3   v=15.0 m/s   next SIG 3: RED, not safe-to-clear, distance=260.1 m
+Realistic SUMO replay step 35/88: k=35   t=35.0s   ego lane=2   v=15.5 m/s   next SIG 3: RED, not safe-to-clear, distance=245.1 m
+Realistic SUMO replay step 36/88: k=36   t=36.0s   ego lane=2   v=16.9 m/s   next SIG 3: RED, not safe-to-clear, distance=229.6 m
+Realistic SUMO replay step 37/88: k=37   t=37.0s   ego lane=2   v=18.2 m/s   next SIG 3: RED, not safe-to-clear, distance=212.7 m
+Realistic SUMO replay step 38/88: k=38   t=38.0s   ego lane=2   v=18.8 m/s   next SIG 3: RED, not safe-to-clear, distance=194.5 m
+Realistic SUMO replay step 39/88: k=39   t=39.0s   ego lane=2   v=18.7 m/s   next SIG 3: RED, not safe-to-clear, distance=175.8 m
+Realistic SUMO replay step 40/88: k=40   t=40.0s   ego lane=2   v=18.0 m/s   next SIG 3: RED, not safe-to-clear, distance=157.1 m
+Realistic SUMO replay step 41/88: k=41   t=41.0s   ego lane=1   v=17.4 m/s   next SIG 3: RED, not safe-to-clear, distance=139.1 m
+Realistic SUMO replay step 42/88: k=42   t=42.0s   ego lane=2   v=18.0 m/s   next SIG 3: RED, not safe-to-clear, distance=121.7 m
+Realistic SUMO replay step 43/88: k=43   t=43.0s   ego lane=2   v=18.6 m/s   next SIG 3: RED, not safe-to-clear, distance=103.8 m
+Realistic SUMO replay step 44/88: k=44   t=44.0s   ego lane=2   v=18.9 m/s   next SIG 3: GREEN, safe-to-clear, distance=85.2 m
+Realistic SUMO replay step 45/88: k=45   t=45.0s   ego lane=2   v=18.9 m/s   next SIG 3: GREEN, safe-to-clear, distance=66.3 m
+Realistic SUMO replay step 46/88: k=46   t=46.0s   ego lane=2   v=18.9 m/s   next SIG 3: GREEN, safe-to-clear, distance=47.4 m
+Realistic SUMO replay step 47/88: k=47   t=47.0s   ego lane=2   v=18.9 m/s   next SIG 3: GREEN, safe-to-clear, distance=28.5 m
+Realistic SUMO replay step 48/88: k=48   t=48.0s   ego lane=2   v=18.9 m/s   next SIG 3: GREEN, safe-to-clear, distance=9.6 m
+Realistic SUMO replay step 49/88: k=49   t=49.0s   ego lane=2   v=18.9 m/s   next SIG 3: GREEN, safe-to-clear, distance=-9.3 m
+Realistic SUMO replay step 50/88: k=50   t=50.0s   ego lane=2   v=18.9 m/s   next NS 1: stop/yield control, distance=258.8 m
+Realistic SUMO replay step 51/88: k=51   t=51.0s   ego lane=2   v=18.9 m/s   next NS 1: stop/yield control, distance=239.9 m
+Realistic SUMO replay step 52/88: k=52   t=52.0s   ego lane=2   v=18.9 m/s   next NS 1: stop/yield control, distance=221.0 m
+Realistic SUMO replay step 53/88: k=53   t=53.0s   ego lane=3   v=19.7 m/s   next NS 1: stop/yield control, distance=202.1 m
+Realistic SUMO replay step 54/88: k=54   t=54.0s   ego lane=3   v=20.3 m/s   next NS 1: stop/yield control, distance=182.4 m
+Realistic SUMO replay step 55/88: k=55   t=55.0s   ego lane=3   v=20.4 m/s   next NS 1: stop/yield control, distance=162.1 m
+Realistic SUMO replay step 56/88: k=56   t=56.0s   ego lane=3   v=20.4 m/s   next NS 1: stop/yield control, distance=141.7 m
+Realistic SUMO replay step 57/88: k=57   t=57.0s   ego lane=3   v=20.4 m/s   next NS 1: stop/yield control, distance=121.2 m
+Realistic SUMO replay step 58/88: k=58   t=58.0s   ego lane=3   v=20.4 m/s   next NS 1: stop/yield control, distance=100.8 m
+Realistic SUMO replay step 59/88: k=59   t=59.0s   ego lane=3   v=19.7 m/s   next NS 1: stop/yield control, distance=80.4 m
+Realistic SUMO replay step 60/88: k=60   t=60.0s   ego lane=3   v=18.1 m/s   next NS 1: stop/yield control, distance=60.8 m
+Realistic SUMO replay step 61/88: k=61   t=61.0s   ego lane=3   v=15.7 m/s   next NS 1: stop/yield control, distance=42.7 m
+Realistic SUMO replay step 62/88: k=62   t=62.0s   ego lane=3   v=12.5 m/s   next NS 1: stop/yield control, distance=27.0 m
+Realistic SUMO replay step 63/88: k=63   t=63.0s   ego lane=3   v=9.0 m/s   next NS 1: stop/yield control, distance=14.5 m
+Realistic SUMO replay step 64/88: k=64   t=64.0s   ego lane=3   v=5.5 m/s   next NS 1: stop/yield control, distance=5.5 m
+Realistic SUMO replay step 65/88: k=65   t=65.0s   ego lane=3   v=2.0 m/s   next NS 1: stop/yield control, distance=0.0 m
+Realistic SUMO replay step 66/88: k=66   t=66.0s   ego lane=3   v=0.0 m/s   next NS 1: stop/yield control, distance=-2.0 m
+Realistic SUMO replay step 67/88: k=67   t=67.0s   ego lane=3   v=0.0 m/s   next NS 1: stop/yield control, distance=-2.0 m
+Realistic SUMO replay step 68/88: k=68   t=68.0s   ego lane=3   v=2.0 m/s   next NS 1: stop/yield control, distance=-2.0 m
+Realistic SUMO replay step 69/88: k=69   t=69.0s   ego lane=3   v=4.0 m/s   next NS 1: stop/yield control, distance=-4.0 m
+Realistic SUMO replay step 70/88: k=70   t=70.0s   ego lane=3   v=6.0 m/s   next NS 1: stop/yield control, distance=-8.0 m
+Realistic SUMO replay step 71/88: k=71   t=71.0s   ego lane=3   v=8.0 m/s   next NS 1: stop/yield control, distance=-14.0 m
+Realistic SUMO replay step 72/88: k=72   t=72.0s   ego lane=3   v=10.0 m/s   next event: none
+Realistic SUMO replay step 73/88: k=73   t=73.0s   ego lane=3   v=12.0 m/s   next event: none
+Realistic SUMO replay step 74/88: k=74   t=74.0s   ego lane=3   v=14.0 m/s   next event: none
+Realistic SUMO replay step 75/88: k=75   t=75.0s   ego lane=3   v=16.0 m/s   next event: none
+Realistic SUMO replay step 76/88: k=76   t=76.0s   ego lane=3   v=18.0 m/s   next event: none
+Realistic SUMO replay step 77/88: k=77   t=77.0s   ego lane=3   v=19.6 m/s   next event: none
+Realistic SUMO replay step 78/88: k=78   t=78.0s   ego lane=3   v=20.4 m/s   next event: none
+Realistic SUMO replay step 79/88: k=79   t=79.0s   ego lane=3   v=20.4 m/s   next event: none
+Realistic SUMO replay step 80/88: k=80   t=80.0s   ego lane=3   v=20.4 m/s   next event: none
+Realistic SUMO replay step 81/88: k=81   t=81.0s   ego lane=3   v=20.4 m/s   next event: none
+Realistic SUMO replay step 82/88: k=82   t=82.0s   ego lane=3   v=20.4 m/s   next event: none
+Realistic SUMO replay step 83/88: k=83   t=83.0s   ego lane=3   v=20.4 m/s   next event: none
+Realistic SUMO replay step 84/88: k=84   t=84.0s   ego lane=3   v=20.4 m/s   next event: none
+Realistic SUMO replay step 85/88: k=85   t=85.0s   ego lane=3   v=20.4 m/s   next event: none
+Realistic SUMO replay step 86/88: k=86   t=86.0s   ego lane=3   v=20.4 m/s   next event: none
+Realistic SUMO replay step 87/88: k=87   t=87.0s   ego lane=3   v=20.4 m/s   next event: none
+Realistic SUMO replay step 88/88: k=88   t=88.0s   ego lane=3   v=20.4 m/s   next event: none
+================================================================================
+Raw frames saved in:
+C:\Users\mhasa42\Desktop\test\paper_ready_runs\S012\04_sumo\video_frames_raw
+================================================================================
+================================================================================
+Final processed frames saved in:
+C:\Users\mhasa42\Desktop\test\paper_ready_runs\S012\04_sumo\video_frames
+================================================================================
+================================================================================
+Video created successfully:
+C:\Users\mhasa42\Desktop\test\paper_ready_runs\S012\04_sumo\S012_sumo_video.mp4
+================================================================================

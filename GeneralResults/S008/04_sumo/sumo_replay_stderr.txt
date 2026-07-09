@@ -1,0 +1,5 @@
+
+
+===== RUN WITH C:\Users\mhasa42\AppData\Local\anaconda3\envs\raiselab\python.exe =====
+C:\Users\mhasa42\Desktop\test\paper_ready_runs\S008\04_sumo\replay_sumo.py:139: UserWarning: Use of deprecated parameter lane in function moveToXY, use laneIndex instead.
+  traci.vehicle.moveToXY(vehID=vid, edgeID=edge_id, lane=lane_index, x=s, y=y, angle=90.0, keepRoute=2)

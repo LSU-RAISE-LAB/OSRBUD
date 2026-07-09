@@ -1,0 +1,13 @@
+metric,value
+fuel_kg,0.07146026354636241
+fuel_g,71.46026354636241
+fuel_energy_j,3072791.3324935837
+fuel_energy_kwh,0.8535531479148843
+battery_discharge_j,82871.79172017888
+battery_discharge_kwh,0.023019942144494134
+brake_loss_j,642332.2635021069
+brake_loss_kwh,0.17842562875058524
+equivalent_energy_j,3155663.1242137626
+equivalent_energy_kwh,0.8765730900593784
+equivalent_energy_kwh_per_km,0.7053360601741694
+distance_m,1242.7736784688498

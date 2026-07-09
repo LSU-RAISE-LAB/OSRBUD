@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<routes>
+    <vType id="egoType" vClass="passenger" guiShape="passenger" accel="100" decel="100" sigma="0" length="5.000" width="2.05" height="1.65" maxSpeed="80" color="255,35,35" lcStrategic="0" lcCooperative="0" lcSpeedGain="0" lcKeepRight="0"/>
+    <vType id="frontTrafficType" vClass="passenger" guiShape="passenger" accel="100" decel="100" sigma="0" length="5.000" width="2.0" height="1.55" maxSpeed="80" color="35,95,255" lcStrategic="0" lcCooperative="0" lcSpeedGain="0" lcKeepRight="0"/>
+    <vType id="rearTrafficType" vClass="passenger" guiShape="passenger" accel="100" decel="100" sigma="0" length="5.000" width="2.0" height="1.55" maxSpeed="80" color="30,170,255" lcStrategic="0" lcCooperative="0" lcSpeedGain="0" lcKeepRight="0"/>
+    <route id="route0" edges="E0"/>
+    <vehicle id="ego" type="egoType" route="route0" depart="0" departLane="0" departPos="204.500" departSpeed="19.000"/>
+    <vehicle id="front_L1" type="frontTrafficType" route="route0" depart="0" departLane="0" departPos="251.500" departSpeed="18.000"/>
+    <vehicle id="rear_L1" type="rearTrafficType" route="route0" depart="0" departLane="0" departPos="180.500" departSpeed="19.000"/>
+    <vehicle id="front_L2" type="frontTrafficType" route="route0" depart="0" departLane="1" departPos="256.500" departSpeed="14.500"/>
+    <vehicle id="rear_L2" type="rearTrafficType" route="route0" depart="0" departLane="1" departPos="171.500" departSpeed="21.000"/>
+    <vehicle id="front_L3" type="frontTrafficType" route="route0" depart="0" departLane="2" departPos="275.500" departSpeed="24.000"/>
+    <vehicle id="rear_L3" type="rearTrafficType" route="route0" depart="0" departLane="2" departPos="162.500" departSpeed="23.000"/>
+</routes>

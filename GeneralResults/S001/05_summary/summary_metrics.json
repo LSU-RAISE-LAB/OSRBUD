@@ -1,0 +1,14 @@
+{
+  "fuel_kg": 0.07556620311660826,
+  "fuel_g": 75.56620311660826,
+  "fuel_energy_j": 3249346.7340141553,
+  "fuel_energy_kwh": 0.902596315003932,
+  "battery_discharge_j": 55878.9301062483,
+  "battery_discharge_kwh": 0.015521925029513417,
+  "brake_loss_j": 591809.4879299385,
+  "brake_loss_kwh": 0.16439152442498292,
+  "equivalent_energy_j": 3305225.6641204036,
+  "equivalent_energy_kwh": 0.9181182400334454,
+  "equivalent_energy_kwh_per_km": 0.6983067425917178,
+  "distance_m": 1314.777853391351
+}

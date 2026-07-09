@@ -1,0 +1,21 @@
+SUMO VIDEO DIAGNOSTICS
+==========================================================================================
+sumo_dir            : C:\Users\mhasa42\Desktop\test\paper_ready_runs\S005\04_sumo
+replay_script       : C:\Users\mhasa42\Desktop\test\paper_ready_runs\S005\04_sumo\replay_sumo.py
+video_path          : C:\Users\mhasa42\Desktop\test\paper_ready_runs\S005\04_sumo\S005_sumo_video.mp4
+video_exists        : True
+video_size_bytes    : 364788
+ok                  : True
+message             : Video created by replay_sumo.py.
+backend             : replay_sumo.py
+python_used         : C:\Users\mhasa42\AppData\Local\anaconda3\envs\raiselab\python.exe
+returncode          : 0
+frames_dir          : None
+num_frames          : 0
+
+MP4 candidates:
+  C:\Users\mhasa42\Desktop\test\paper_ready_runs\S005\04_sumo\S005_sumo_video.mp4
+
+Frame candidates:
+
+Errors:

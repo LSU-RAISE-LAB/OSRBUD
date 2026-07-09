@@ -1,0 +1,24 @@
+================================================================================================
+PAPER-READY DRIVING SCENARIO RUN
+================================================================================================
+Run ID       : S003
+Initial lane : 1
+Output root  : C:\Users\mhasa42\Desktop\test\paper_ready_runs\S003
+================================================================================================
+
+Scenario: S003 - dense_urban_expressway_two_controls
+Description: Feasibility-aware urban_expressway scenario with realistic spacing between intersections.
+Intended behavior: Plan lane changes and eco-driving while respecting separated stop-controlled and signalized intersections.
+
+Saving paper-ready input/data plots...
+Input plots folder: C:\Users\mhasa42\Desktop\test\paper_ready_runs\S003\02_input_plots
+
+Building and solving the Gurobi planning problem...
+
+================================================================================================
+RUN FAILED
+================================================================================================
+Error type: RuntimeError
+Error     : Level 1 failed. Status = 3
+
+================================================================================================
