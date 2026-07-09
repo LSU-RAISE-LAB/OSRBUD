@@ -1,0 +1,9 @@
+key,value
+J_safe_star,0.0
+J_perm_star,0.0
+J_dyn_star,0.0
+J_eco_star,-4672.28725285881
+solver_status,OPTIMAL
+status_code,2
+mip_gap,8.53931719918956e-05
+runtime_sec,3.3630001544952393

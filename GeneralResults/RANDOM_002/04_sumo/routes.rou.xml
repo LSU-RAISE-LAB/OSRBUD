@@ -4,7 +4,7 @@
     <vType id="frontTrafficType" vClass="passenger" guiShape="passenger" accel="100" decel="100" sigma="0" length="5.000" width="2.0" height="1.55" maxSpeed="80" color="35,95,255" lcStrategic="0" lcCooperative="0" lcSpeedGain="0" lcKeepRight="0"/>
     <vType id="rearTrafficType" vClass="passenger" guiShape="passenger" accel="100" decel="100" sigma="0" length="5.000" width="2.0" height="1.55" maxSpeed="80" color="30,170,255" lcStrategic="0" lcCooperative="0" lcSpeedGain="0" lcKeepRight="0"/>
     <route id="route0" edges="E0"/>
-    <vehicle id="ego" type="egoType" route="route0" depart="0" departLane="2" departPos="252.500" departSpeed="18.049"/>
+    <vehicle id="ego" type="egoType" route="route0" depart="0" departLane="2" departPos="252.500" departSpeed="17.162"/>
     <vehicle id="front_L1" type="frontTrafficType" route="route0" depart="0" departLane="0" departPos="302.500" departSpeed="18.700"/>
     <vehicle id="rear_L1" type="rearTrafficType" route="route0" depart="0" departLane="0" departPos="222.500" departSpeed="20.200"/>
     <vehicle id="front_L2" type="frontTrafficType" route="route0" depart="0" departLane="1" departPos="317.500" departSpeed="21.400"/>

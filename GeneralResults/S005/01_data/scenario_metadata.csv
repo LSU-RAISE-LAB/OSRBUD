@@ -1,0 +1,7 @@
+key,value
+scenario_id,S005
+name,curved_segment_stop_and_signal
+road_type,curved_arterial
+traffic_level,moderate
+source,synthetic_realistic_bank
+seed,

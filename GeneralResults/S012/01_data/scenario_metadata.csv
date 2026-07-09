@@ -1,0 +1,7 @@
+key,value
+scenario_id,S012
+name,early_red_three_signal_arterial
+road_type,urban_arterial
+traffic_level,moderate_to_dense
+source,synthetic_realistic_bank
+seed,

@@ -1,0 +1,5 @@
+k,direction,from_lane,to_lane
+0,LEFT,1,2
+1,LEFT,2,3
+2,LEFT,3,4
+38,RIGHT,4,3

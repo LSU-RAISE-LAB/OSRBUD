@@ -7,7 +7,7 @@
     "solver_status": "OPTIMAL",
     "status_code": 2,
     "mip_gap": 7.615265754940109e-05,
-    "runtime_sec": 6.690000057220459
+    "runtime_sec": 6.5340001583099365
   },
   "s": [
     0.0,

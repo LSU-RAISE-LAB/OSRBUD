@@ -1,0 +1,76 @@
+{
+  "run_id": "S012",
+  "folders": {
+    "root": "C:\\Users\\mhasa42\\Desktop\\test\\paper_standard_runs\\S012",
+    "logs": "C:\\Users\\mhasa42\\Desktop\\test\\paper_standard_runs\\S012\\00_logs",
+    "data": "C:\\Users\\mhasa42\\Desktop\\test\\paper_standard_runs\\S012\\01_data",
+    "input_plots": "C:\\Users\\mhasa42\\Desktop\\test\\paper_standard_runs\\S012\\02_input_plots",
+    "solution_plots": "C:\\Users\\mhasa42\\Desktop\\test\\paper_standard_runs\\S012\\03_solution_plots",
+    "sumo": "C:\\Users\\mhasa42\\Desktop\\test\\paper_standard_runs\\S012\\04_sumo",
+    "summary": "C:\\Users\\mhasa42\\Desktop\\test\\paper_standard_runs\\S012\\05_summary"
+  },
+  "console_log": "C:\\Users\\mhasa42\\Desktop\\test\\paper_standard_runs\\S012\\00_logs\\run_console_output.txt",
+  "sumo_status": {
+    "sumo_dir": "C:\\Users\\mhasa42\\Desktop\\test\\paper_standard_runs\\S012\\04_sumo",
+    "replay_script": "C:\\Users\\mhasa42\\Desktop\\test\\paper_standard_runs\\S012\\04_sumo\\replay_sumo.py",
+    "video_path": "C:\\Users\\mhasa42\\Desktop\\test\\paper_standard_runs\\S012\\04_sumo\\S012_sumo_video.mp4",
+    "video_exists": true,
+    "video_size_bytes": 1006815,
+    "ok": true,
+    "message": "Video created by replay_sumo.py.",
+    "backend": "replay_sumo.py",
+    "python_used": "C:\\Users\\mhasa42\\AppData\\Local\\anaconda3\\envs\\raiselab\\python.exe",
+    "returncode": 0,
+    "stdout_log": "C:\\Users\\mhasa42\\Desktop\\test\\paper_standard_runs\\S012\\04_sumo\\sumo_replay_stdout.txt",
+    "stderr_log": "C:\\Users\\mhasa42\\Desktop\\test\\paper_standard_runs\\S012\\04_sumo\\sumo_replay_stderr.txt",
+    "diagnostics_txt": "C:\\Users\\mhasa42\\Desktop\\test\\paper_standard_runs\\S012\\04_sumo\\video_diagnostics.txt",
+    "diagnostics_json": "C:\\Users\\mhasa42\\Desktop\\test\\paper_standard_runs\\S012\\04_sumo\\video_diagnostics.json",
+    "batch_file": "C:\\Users\\mhasa42\\Desktop\\test\\paper_standard_runs\\S012\\04_sumo\\run_replay_here.bat",
+    "mp4_candidates": [
+      "C:\\Users\\mhasa42\\Desktop\\test\\paper_standard_runs\\S012\\04_sumo\\S012_sumo_video.mp4"
+    ],
+    "frame_candidates": [],
+    "frames_dir": null,
+    "num_frames": 0,
+    "errors": []
+  },
+  "video_path": "C:\\Users\\mhasa42\\Desktop\\test\\paper_standard_runs\\S012\\04_sumo\\S012_sumo_video.mp4",
+  "metrics_available": [
+    "battery_discharge_j",
+    "battery_discharge_kwh",
+    "brake_loss_j",
+    "brake_loss_kwh",
+    "distance_m",
+    "equivalent_energy_j",
+    "equivalent_energy_kwh",
+    "equivalent_energy_kwh_per_km",
+    "fuel_energy_j",
+    "fuel_energy_kwh",
+    "fuel_g",
+    "fuel_kg"
+  ],
+  "hard_checks_available": [
+    "NS_no_cross_max_violation",
+    "NS_stop_speed_max_violation",
+    "SIG_downstream_clearance_max_violation",
+    "SIG_entry_safe_to_clear_max_violation",
+    "SIG_position_consistency_max_violation",
+    "SIG_stopping_feasibility_max_violation",
+    "SOC_max_violation",
+    "hard_current_lane_safety_max_violation",
+    "hard_lane_change_safety_max_violation",
+    "raw_acc_bound_violation_before_slack",
+    "raw_jerk_bound_violation_before_slack",
+    "speed_cap_max_violation"
+  ],
+  "objective_fields_available": [
+    "J_dyn_star",
+    "J_eco_star",
+    "J_perm_star",
+    "J_safe_star",
+    "mip_gap",
+    "runtime_sec",
+    "solver_status",
+    "status_code"
+  ]
+}

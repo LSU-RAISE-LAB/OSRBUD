@@ -1,0 +1,7 @@
+key,value
+scenario_id,S008
+name,six_lane_challenging_but_spaced
+road_type,wide_highway
+traffic_level,moderate
+source,synthetic_realistic_bank
+seed,

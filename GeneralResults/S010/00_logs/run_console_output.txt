@@ -1,19 +1,297 @@
 ================================================================================================
-PAPER-READY DRIVING SCENARIO RUN
+PAPER-STANDARD ALL-OUTPUT DRIVING SCENARIO RUN
 ================================================================================================
 Run ID       : S010
 Initial lane : 1
-Output root  : C:\Users\mhasa42\Desktop\test\paper_ready_runs\S010
+Output root  : C:\Users\mhasa42\Desktop\test\paper_standard_runs\S010
 ================================================================================================
 
 Scenario: S010 - long_horizon_mixed_controls
 Description: Feasibility-aware mixed_corridor scenario with realistic spacing between intersections.
 Intended behavior: Plan lane changes and eco-driving while respecting separated stop-controlled and signalized intersections.
 
-Saving paper-ready input/data plots...
-Input plots folder: C:\Users\mhasa42\Desktop\test\paper_ready_runs\S010\02_input_plots
+Saving all paper-standard input/data plots in one folder...
+Input plots folder: C:\Users\mhasa42\Desktop\test\paper_standard_runs\S010\02_input_plots
 
 Building and solving the Gurobi planning problem...
+Set parameter OutputFlag to value 1
+Set parameter NonConvex to value 2
+Warning: zero or small (< 1e-13) coefficients in quadratic constraints, ignored
+Gurobi Optimizer version 13.0.2 build v13.0.2rc1 (win64 - Windows 11.0 (26100.2))
+
+CPU model: Intel(R) Core(TM) Ultra 9 285K, instruction set [SSE2|AVX|AVX2]
+Thread count: 24 physical cores, 24 logical processors, using up to 24 threads
+
+Non-default parameters:
+NonConvex  2
+
+Optimize a model with 10259 rows, 5653 columns and 29209 nonzeros (Min)
+Model fingerprint: 0x29811817
+Model has 1853 linear objective coefficients
+Model has 303 quadratic constraints
+Variable types: 4056 continuous, 1597 integer (1597 binary)
+Coefficient statistics:
+  Matrix range     [6e-08, 8e+04]
+  QMatrix range    [2e-01, 1e+00]
+  QLMatrix range   [7e-08, 2e+03]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [3e-01, 8e+04]
+  RHS range        [6e-01, 4e+03]
+  QRHS range       [1e+02, 8e+02]
+Warning: Model contains large matrix coefficient range
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+
+Presolve removed 8963 rows and 4093 columns
+Presolve time: 0.10s
+Presolved: 1905 rows, 1561 columns, 7771 nonzeros
+Presolved model has 174 bilinear constraint(s)
+
+Solving non-convex MIQCP to global optimality
+
+Variable types: 886 continuous, 675 integer (675 binary)
+
+Root relaxation: objective 0.000000e+00, 460 iterations, 0.00 seconds (0.01 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    0.00000    0   93          -    0.00000      -     -    0s
+     0     0    0.00000    0  105          -    0.00000      -     -    0s
+     0     0    0.00000    0  104          -    0.00000      -     -    0s
+     0     0    0.00000    0   92          -    0.00000      -     -    0s
+     0     0    0.00000    0  134          -    0.00000      -     -    0s
+     0     0    0.00000    0   87          -    0.00000      -     -    0s
+     0     0    0.00000    0   87          -    0.00000      -     -    0s
+     0     0    0.00000    0   96          -    0.00000      -     -    0s
+     0     0    0.00000    0   85          -    0.00000      -     -    0s
+     0     0    0.00000    0   84          -    0.00000      -     -    0s
+     0     0    0.00000    0   94          -    0.00000      -     -    0s
+     0     0    0.00000    0   84          -    0.00000      -     -    0s
+H    0     0                       0.0000000    0.00000  0.00%     -    0s
+     0     0    0.00000    0   84    0.00000    0.00000  0.00%     -    0s
+
+Cutting planes:
+  Implied bound: 1
+  RLT: 36
+
+Explored 1 nodes (1599 simplex iterations) in 0.29 seconds (0.32 work units)
+Thread count was 24 (of 24 available processors)
+
+Solution count 2: 0 0 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 0.000000000000e+00, best bound 0.000000000000e+00, gap 0.0000%
+Gurobi Optimizer version 13.0.2 build v13.0.2rc1 (win64 - Windows 11.0 (26100.2))
+
+CPU model: Intel(R) Core(TM) Ultra 9 285K, instruction set [SSE2|AVX|AVX2]
+Thread count: 24 physical cores, 24 logical processors, using up to 24 threads
+
+Non-default parameters:
+NonConvex  2
+
+Optimize a model with 10260 rows, 5653 columns and 31062 nonzeros (Min)
+Model fingerprint: 0x14c097c4
+Model has 704 linear objective coefficients
+Model has 303 quadratic constraints
+Variable types: 4056 continuous, 1597 integer (1597 binary)
+Coefficient statistics:
+  Matrix range     [6e-08, 8e+04]
+  QMatrix range    [2e-01, 1e+00]
+  QLMatrix range   [7e-08, 2e+03]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [3e-01, 8e+04]
+  RHS range        [6e-01, 4e+03]
+  QRHS range       [1e+02, 8e+02]
+Warning: Model contains large matrix coefficient range
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+
+Loaded MIP start from previous solve with objective 704
+
+Presolve removed 9104 rows and 4334 columns
+Presolve time: 0.08s
+Presolved: 1765 rows, 1320 columns, 6579 nonzeros
+Presolved model has 174 bilinear constraint(s)
+
+Solving non-convex MIQCP to global optimality
+
+Found heuristic solution: objective 1.0000000
+Variable types: 679 continuous, 641 integer (641 binary)
+
+Root relaxation: objective 0.000000e+00, 421 iterations, 0.00 seconds (0.01 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    0.00000    0   95    1.00000    0.00000   100%     -    0s
+H    0     0                       0.0000000    0.00000  0.00%     -    0s
+     0     0    0.00000    0   95    0.00000    0.00000  0.00%     -    0s
+
+Explored 1 nodes (551 simplex iterations) in 0.10 seconds (0.13 work units)
+Thread count was 24 (of 24 available processors)
+
+Solution count 4: 0 0 1 704 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 0.000000000000e+00, best bound 0.000000000000e+00, gap 0.0000%
+Gurobi Optimizer version 13.0.2 build v13.0.2rc1 (win64 - Windows 11.0 (26100.2))
+
+CPU model: Intel(R) Core(TM) Ultra 9 285K, instruction set [SSE2|AVX|AVX2]
+Thread count: 24 physical cores, 24 logical processors, using up to 24 threads
+
+Non-default parameters:
+NonConvex  2
+
+Optimize a model with 10261 rows, 5653 columns and 31766 nonzeros (Min)
+Model fingerprint: 0x536796b4
+Model has 175 linear objective coefficients
+Model has 303 quadratic constraints
+Variable types: 4056 continuous, 1597 integer (1597 binary)
+Coefficient statistics:
+  Matrix range     [6e-08, 8e+04]
+  QMatrix range    [2e-01, 1e+00]
+  QLMatrix range   [7e-08, 2e+03]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [3e-01, 8e+04]
+  RHS range        [6e-01, 4e+03]
+  QRHS range       [1e+02, 8e+02]
+Warning: Model contains large matrix coefficient range
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+
+Loaded MIP start from previous solve with objective 111
+
+Presolve removed 8671 rows and 4077 columns
+Presolve time: 0.09s
+Presolved: 2199 rows, 1577 columns, 7765 nonzeros
+Presolved model has 174 bilinear constraint(s)
+
+Solving non-convex MIQCP to global optimality
+
+Found heuristic solution: objective 106.7973986
+Variable types: 941 continuous, 636 integer (636 binary)
+
+Root relaxation: objective 0.000000e+00, 552 iterations, 0.00 seconds (0.01 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    0.00000    0  104  106.79740    0.00000   100%     -    0s
+H    0     0                      94.0683246    0.00000   100%     -    0s
+     0     0    0.00000    0  120   94.06832    0.00000   100%     -    0s
+     0     0    0.00000    0  118   94.06832    0.00000   100%     -    0s
+     0     0    0.00000    0  115   94.06832    0.00000   100%     -    0s
+     0     0    0.00000    0  157   94.06832    0.00000   100%     -    0s
+     0     0    0.00000    0  103   94.06832    0.00000   100%     -    0s
+     0     0    0.00000    0  102   94.06832    0.00000   100%     -    0s
+     0     0    0.00000    0  117   94.06832    0.00000   100%     -    0s
+     0     0    0.00000    0  105   94.06832    0.00000   100%     -    0s
+     0     0    0.00000    0  102   94.06832    0.00000   100%     -    0s
+H    0     0                      88.4956562    0.00000   100%     -    0s
+     0     0    0.00000    0  139   88.49566    0.00000   100%     -    0s
+     0     0    0.00000    0  100   88.49566    0.00000   100%     -    0s
+H    0     0                      86.6948946    0.00000   100%     -    0s
+H    0     0                       0.0000000    0.00000  0.00%     -    0s
+     0     0    0.00000    0  134    0.00000    0.00000  0.00%     -    0s
+
+Cutting planes:
+  Cover: 1
+  Implied bound: 2
+  MIR: 5
+  GUB cover: 1
+  RLT: 57
+
+Explored 1 nodes (2234 simplex iterations) in 0.25 seconds (0.28 work units)
+Thread count was 24 (of 24 available processors)
+
+Solution count 6: 0 0 86.6949 ... 111
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 0.000000000000e+00, best bound 0.000000000000e+00, gap 0.0000%
+Gurobi Optimizer version 13.0.2 build v13.0.2rc1 (win64 - Windows 11.0 (26100.2))
+
+CPU model: Intel(R) Core(TM) Ultra 9 285K, instruction set [SSE2|AVX|AVX2]
+Thread count: 24 physical cores, 24 logical processors, using up to 24 threads
+
+Non-default parameters:
+NonConvex  2
+
+Optimize a model with 10262 rows, 5653 columns and 31941 nonzeros (Min)
+Model fingerprint: 0xae406de9
+Model has 795 linear objective coefficients and an objective constant of 1800
+Model has 176 quadratic objective terms
+Model has 303 quadratic constraints
+Variable types: 4056 continuous, 1597 integer (1597 binary)
+Coefficient statistics:
+  Matrix range     [6e-08, 8e+04]
+  QMatrix range    [2e-01, 1e+00]
+  QLMatrix range   [7e-08, 2e+03]
+  Objective range  [1e-06, 6e+03]
+  QObjective range [5e+00, 1e+04]
+  Bounds range     [3e-01, 8e+04]
+  RHS range        [6e-01, 4e+03]
+  QRHS range       [1e+02, 8e+02]
+Warning: Model contains large matrix coefficient range
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+
+Loaded MIP start from previous solve with objective -2323.42
+
+Presolve removed 8783 rows and 4174 columns
+Presolve time: 0.09s
+Presolved: 2088 rows, 1480 columns, 7257 nonzeros
+Presolved model has 176 quadratic objective terms
+Presolved model has 174 bilinear constraint(s)
+
+Solving non-convex MIQCP to global optimality
+
+Found heuristic solution: objective -2323.418534
+Variable types: 852 continuous, 628 integer (628 binary)
+
+Root relaxation: objective -5.256814e+03, 2658 iterations, 0.04 seconds (0.05 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 -5256.8140    0  147 -2323.4185 -5256.8140   126%     -    0s
+     0     0 -5256.8140    0  147 -2323.4185 -5256.8140   126%     -    0s
+     0     0 -5256.8140    0  147 -2323.4185 -5256.8140   126%     -    0s
+H    0     0                    -2326.433437 -5256.8140   126%     -    0s
+H    0     0                    -2326.973470 -5256.8140   126%     -    0s
+     0     0 -5237.6173    0  217 -2326.9735 -5237.6173   125%     -    0s
+H    0     0                    -4746.634244 -5236.1805  10.3%     -    0s
+H    0     0                    -4752.269913 -5236.1805  10.2%     -    0s
+     0     0 -5236.1805    0  217 -4752.2699 -5236.1805  10.2%     -    0s
+     0     0 -5236.1805    0  216 -4752.2699 -5236.1805  10.2%     -    0s
+     0     0 -5236.1805    0  217 -4752.2699 -5236.1805  10.2%     -    0s
+     0     0 -5236.1805    0  212 -4752.2699 -5236.1805  10.2%     -    0s
+     0     0 -5236.1805    0  214 -4752.2699 -5236.1805  10.2%     -    0s
+     0     0 -5210.6516    0  212 -4752.2699 -5210.6516  9.65%     -    0s
+H    0     0                    -4753.669913 -5210.6516  9.61%     -    0s
+H    0     0                    -4754.591194 -5210.6516  9.59%     -    0s
+     0     0 -5210.2463    0  212 -4754.5912 -5210.2463  9.58%     -    0s
+     0     0 -5193.7737    0  179 -4754.5912 -5193.7737  9.24%     -    0s
+H    0     0                    -5176.395083 -5193.7737  0.34%     -    0s
+     0     2 -5193.7737    0  179 -5176.3951 -5193.7737  0.34%     -    0s
+H   18    28                    -5192.874629 -5193.7737  0.02%  70.9    1s
+H  295   360                    -5192.899599 -5193.5126  0.01%  24.0    1s
+H  326   360                    -5193.138174 -5193.5126  0.01%  22.5    1s
+
+Cutting planes:
+  Gomory: 39
+  Implied bound: 2
+  MIR: 17
+  RLT: 35
+  Relax-and-lift: 3
+
+Explored 427 nodes (11258 simplex iterations) in 1.70 seconds (1.13 work units)
+Thread count was 24 (of 24 available processors)
+
+Solution count 10: -5193.14 -5193.14 -5192.9 ... -2326.97
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective -5.193138173920e+03, best bound -5.193512556835e+03, gap 0.0072%
 Solve complete.
 
 ==============================================================================================================
@@ -25,7 +303,7 @@ SOLVER / OPTIMALITY
 Solver status        : OPTIMAL
 Status code          : 2
 MIP gap              : 7.209e-05
-Runtime              : 1.426 s
+Runtime              : 1.700 s
 Lexicographic result : OPTIMAL at all four levels if no RuntimeError was raised
 
 LEXICOGRAPHIC OBJECTIVE VALUES
@@ -318,12 +596,12 @@ TRAJECTORY AND POWERTRAIN TABLE
  88 |    3 |  1773.104 |    23.962 |           |        |         |         |        | 0.5950 | 89.9073
 ==============================================================================================================
 
-Saving paper-ready optimal-solution plots...
-Solution plots folder: C:\Users\mhasa42\Desktop\test\paper_ready_runs\S010\03_solution_plots
+Saving all paper-standard optimal-solution plots in one folder...
+Solution plots folder: C:\Users\mhasa42\Desktop\test\paper_standard_runs\S010\03_solution_plots
 
-Saving scenario data, solution, trajectory CSV, and summary metrics...
-Data folder: C:\Users\mhasa42\Desktop\test\paper_ready_runs\S010\01_data
-Summary folder: C:\Users\mhasa42\Desktop\test\paper_ready_runs\S010\05_summary
+Saving scenario data, solution data, metrics, reports, and tables...
+Data folder: C:\Users\mhasa42\Desktop\test\paper_standard_runs\S010\01_data
+Summary folder: C:\Users\mhasa42\Desktop\test\paper_standard_runs\S010\05_summary
 Equivalent energy      : 1.131294 kWh
 Equivalent energy/km   : 0.638030 kWh/km
 Distance               : 1773.104 m
@@ -334,26 +612,26 @@ Realistic SUMO replay package generated
 ================================================================================================
 Scenario      : S010 - long_horizon_mixed_controls
 Style version : realistic_v2_signalized_intersections
-Output folder : C:\Users\mhasa42\Desktop\test\paper_ready_runs\S010\04_sumo
+Output folder : C:\Users\mhasa42\Desktop\test\paper_standard_runs\S010\04_sumo
 Offset        : 220.000 m
 Road length   : 3129.000 m
 Lane width    : 5.000 m
 Video name    : S010_sumo_video.mp4
 Run:
-  cd "C:\Users\mhasa42\Desktop\test\paper_ready_runs\S010\04_sumo"
+  cd "C:\Users\mhasa42\Desktop\test\paper_standard_runs\S010\04_sumo"
   python replay_sumo.py
 ================================================================================================
-SUMO package folder: C:\Users\mhasa42\Desktop\test\paper_ready_runs\S010\04_sumo
-SUMO status: {'sumo_dir': 'C:\\Users\\mhasa42\\Desktop\\test\\paper_ready_runs\\S010\\04_sumo', 'replay_script': 'C:\\Users\\mhasa42\\Desktop\\test\\paper_ready_runs\\S010\\04_sumo\\replay_sumo.py', 'video_path': 'C:\\Users\\mhasa42\\Desktop\\test\\paper_ready_runs\\S010\\04_sumo\\S010_sumo_video.mp4', 'video_exists': True, 'video_size_bytes': 515024, 'ok': True, 'message': 'Video created by replay_sumo.py.', 'backend': 'replay_sumo.py', 'python_used': 'C:\\Users\\mhasa42\\AppData\\Local\\anaconda3\\envs\\raiselab\\python.exe', 'returncode': 0, 'stdout_log': 'C:\\Users\\mhasa42\\Desktop\\test\\paper_ready_runs\\S010\\04_sumo\\sumo_replay_stdout.txt', 'stderr_log': 'C:\\Users\\mhasa42\\Desktop\\test\\paper_ready_runs\\S010\\04_sumo\\sumo_replay_stderr.txt', 'diagnostics_txt': 'C:\\Users\\mhasa42\\Desktop\\test\\paper_ready_runs\\S010\\04_sumo\\video_diagnostics.txt', 'diagnostics_json': 'C:\\Users\\mhasa42\\Desktop\\test\\paper_ready_runs\\S010\\04_sumo\\video_diagnostics.json', 'batch_file': 'C:\\Users\\mhasa42\\Desktop\\test\\paper_ready_runs\\S010\\04_sumo\\run_replay_here.bat', 'mp4_candidates': ['C:\\Users\\mhasa42\\Desktop\\test\\paper_ready_runs\\S010\\04_sumo\\S010_sumo_video.mp4'], 'frame_candidates': [], 'frames_dir': None, 'num_frames': 0, 'errors': []}
+SUMO package folder: C:\Users\mhasa42\Desktop\test\paper_standard_runs\S010\04_sumo
+SUMO status: {'sumo_dir': 'C:\\Users\\mhasa42\\Desktop\\test\\paper_standard_runs\\S010\\04_sumo', 'replay_script': 'C:\\Users\\mhasa42\\Desktop\\test\\paper_standard_runs\\S010\\04_sumo\\replay_sumo.py', 'video_path': 'C:\\Users\\mhasa42\\Desktop\\test\\paper_standard_runs\\S010\\04_sumo\\S010_sumo_video.mp4', 'video_exists': True, 'video_size_bytes': 829793, 'ok': True, 'message': 'Video created by replay_sumo.py.', 'backend': 'replay_sumo.py', 'python_used': 'C:\\Users\\mhasa42\\AppData\\Local\\anaconda3\\envs\\raiselab\\python.exe', 'returncode': 0, 'stdout_log': 'C:\\Users\\mhasa42\\Desktop\\test\\paper_standard_runs\\S010\\04_sumo\\sumo_replay_stdout.txt', 'stderr_log': 'C:\\Users\\mhasa42\\Desktop\\test\\paper_standard_runs\\S010\\04_sumo\\sumo_replay_stderr.txt', 'diagnostics_txt': 'C:\\Users\\mhasa42\\Desktop\\test\\paper_standard_runs\\S010\\04_sumo\\video_diagnostics.txt', 'diagnostics_json': 'C:\\Users\\mhasa42\\Desktop\\test\\paper_standard_runs\\S010\\04_sumo\\video_diagnostics.json', 'batch_file': 'C:\\Users\\mhasa42\\Desktop\\test\\paper_standard_runs\\S010\\04_sumo\\run_replay_here.bat', 'mp4_candidates': ['C:\\Users\\mhasa42\\Desktop\\test\\paper_standard_runs\\S010\\04_sumo\\S010_sumo_video.mp4'], 'frame_candidates': [], 'frames_dir': None, 'num_frames': 0, 'errors': []}
 
 ================================================================================================
 RUN FINISHED
 ================================================================================================
-root           : C:\Users\mhasa42\Desktop\test\paper_ready_runs\S010
-logs           : C:\Users\mhasa42\Desktop\test\paper_ready_runs\S010\00_logs
-data           : C:\Users\mhasa42\Desktop\test\paper_ready_runs\S010\01_data
-input_plots    : C:\Users\mhasa42\Desktop\test\paper_ready_runs\S010\02_input_plots
-solution_plots : C:\Users\mhasa42\Desktop\test\paper_ready_runs\S010\03_solution_plots
-sumo           : C:\Users\mhasa42\Desktop\test\paper_ready_runs\S010\04_sumo
-summary        : C:\Users\mhasa42\Desktop\test\paper_ready_runs\S010\05_summary
+root           : C:\Users\mhasa42\Desktop\test\paper_standard_runs\S010
+logs           : C:\Users\mhasa42\Desktop\test\paper_standard_runs\S010\00_logs
+data           : C:\Users\mhasa42\Desktop\test\paper_standard_runs\S010\01_data
+input_plots    : C:\Users\mhasa42\Desktop\test\paper_standard_runs\S010\02_input_plots
+solution_plots : C:\Users\mhasa42\Desktop\test\paper_standard_runs\S010\03_solution_plots
+sumo           : C:\Users\mhasa42\Desktop\test\paper_standard_runs\S010\04_sumo
+summary        : C:\Users\mhasa42\Desktop\test\paper_standard_runs\S010\05_summary
 ================================================================================================

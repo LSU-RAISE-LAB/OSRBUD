@@ -1,0 +1,13 @@
+metric,value
+speed_cap_max_violation,0.0
+hard_current_lane_safety_max_violation,0.0
+hard_lane_change_safety_max_violation,0.0
+raw_acc_bound_violation_before_slack,0.0
+raw_jerk_bound_violation_before_slack,1.9539925233402755e-14
+SOC_max_violation,0.0
+NS_stop_speed_max_violation,0.0
+NS_no_cross_max_violation,0.0
+SIG_entry_safe_to_clear_max_violation,0.0
+SIG_position_consistency_max_violation,0.0
+SIG_stopping_feasibility_max_violation,2.5346042775709066e-07
+SIG_downstream_clearance_max_violation,0.0

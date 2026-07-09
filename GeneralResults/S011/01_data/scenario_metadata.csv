@@ -1,0 +1,7 @@
+key,value
+scenario_id,S011
+name,early_red_stop_two_signals
+road_type,suburban_arterial
+traffic_level,moderate
+source,synthetic_realistic_bank
+seed,

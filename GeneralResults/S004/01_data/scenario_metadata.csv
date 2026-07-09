@@ -1,0 +1,7 @@
+key,value
+scenario_id,S004
+name,multi_lane_rule_changes_and_late_closure
+road_type,multi_lane_highway
+traffic_level,moderate
+source,synthetic_realistic_bank
+seed,

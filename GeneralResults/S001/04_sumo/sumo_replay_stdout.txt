@@ -76,13 +76,13 @@ Realistic SUMO replay step 71/72: k=71   t=71.0s   ego lane=2   v=22.0 m/s   nex
 Realistic SUMO replay step 72/72: k=72   t=72.0s   ego lane=2   v=22.0 m/s   next event: none
 ================================================================================
 Raw frames saved in:
-C:\Users\mhasa42\Desktop\test\paper_ready_runs\S001\04_sumo\video_frames_raw
+C:\Users\mhasa42\Desktop\test\paper_standard_runs\S001\04_sumo\video_frames_raw
 ================================================================================
 ================================================================================
 Final processed frames saved in:
-C:\Users\mhasa42\Desktop\test\paper_ready_runs\S001\04_sumo\video_frames
+C:\Users\mhasa42\Desktop\test\paper_standard_runs\S001\04_sumo\video_frames
 ================================================================================
 ================================================================================
 Video created successfully:
-C:\Users\mhasa42\Desktop\test\paper_ready_runs\S001\04_sumo\S001_sumo_video.mp4
+C:\Users\mhasa42\Desktop\test\paper_standard_runs\S001\04_sumo\S001_sumo_video.mp4
 ================================================================================

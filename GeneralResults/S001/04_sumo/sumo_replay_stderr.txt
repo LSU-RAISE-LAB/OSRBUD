@@ -1,5 +1,6 @@
 
 
 ===== RUN WITH C:\Users\mhasa42\AppData\Local\anaconda3\envs\raiselab\python.exe =====
-C:\Users\mhasa42\Desktop\test\paper_ready_runs\S001\04_sumo\replay_sumo.py:139: UserWarning: Use of deprecated parameter lane in function moveToXY, use laneIndex instead.
+C:\Users\mhasa42\Desktop\test\paper_standard_runs\S001\04_sumo\replay_sumo.py:139: UserWarning: Use of deprecated parameter lane in function moveToXY, use laneIndex instead.
   traci.vehicle.moveToXY(vehID=vid, edgeID=edge_id, lane=lane_index, x=s, y=y, angle=90.0, keepRoute=2)
+[rawvideo @ 0000012c38500300] Stream #0: not enough frames to estimate rate; consider increasing probesize

@@ -1,10 +1,10 @@
 SUMO VIDEO DIAGNOSTICS
 ==========================================================================================
-sumo_dir            : C:\Users\mhasa42\Desktop\test\paper_ready_runs\RANDOM_001\04_sumo
-replay_script       : C:\Users\mhasa42\Desktop\test\paper_ready_runs\RANDOM_001\04_sumo\replay_sumo.py
-video_path          : C:\Users\mhasa42\Desktop\test\paper_ready_runs\RANDOM_001\04_sumo\RANDOM_001_sumo_video.mp4
+sumo_dir            : C:\Users\mhasa42\Desktop\test\paper_standard_runs\RANDOM_001\04_sumo
+replay_script       : C:\Users\mhasa42\Desktop\test\paper_standard_runs\RANDOM_001\04_sumo\replay_sumo.py
+video_path          : C:\Users\mhasa42\Desktop\test\paper_standard_runs\RANDOM_001\04_sumo\RANDOM_001_sumo_video.mp4
 video_exists        : True
-video_size_bytes    : 395011
+video_size_bytes    : 565567
 ok                  : True
 message             : Video created by replay_sumo.py.
 backend             : replay_sumo.py
@@ -14,7 +14,7 @@ frames_dir          : None
 num_frames          : 0
 
 MP4 candidates:
-  C:\Users\mhasa42\Desktop\test\paper_ready_runs\RANDOM_001\04_sumo\RANDOM_001_sumo_video.mp4
+  C:\Users\mhasa42\Desktop\test\paper_standard_runs\RANDOM_001\04_sumo\RANDOM_001_sumo_video.mp4
 
 Frame candidates:
 

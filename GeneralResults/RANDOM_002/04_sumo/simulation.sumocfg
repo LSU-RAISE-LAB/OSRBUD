@@ -7,7 +7,7 @@
     </input>
     <time>
         <begin value="0"/>
-        <end value="95.0"/>
+        <end value="65.0"/>
         <step-length value="1.0"/>
     </time>
     <processing>

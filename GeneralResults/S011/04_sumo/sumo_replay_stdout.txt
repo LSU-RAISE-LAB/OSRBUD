@@ -84,13 +84,13 @@ Realistic SUMO replay step 79/80: k=79   t=79.0s   ego lane=2   v=19.9 m/s   nex
 Realistic SUMO replay step 80/80: k=80   t=80.0s   ego lane=2   v=19.9 m/s   next event: none
 ================================================================================
 Raw frames saved in:
-C:\Users\mhasa42\Desktop\test\paper_ready_runs\S011\04_sumo\video_frames_raw
+C:\Users\mhasa42\Desktop\test\paper_standard_runs\S011\04_sumo\video_frames_raw
 ================================================================================
 ================================================================================
 Final processed frames saved in:
-C:\Users\mhasa42\Desktop\test\paper_ready_runs\S011\04_sumo\video_frames
+C:\Users\mhasa42\Desktop\test\paper_standard_runs\S011\04_sumo\video_frames
 ================================================================================
 ================================================================================
 Video created successfully:
-C:\Users\mhasa42\Desktop\test\paper_ready_runs\S011\04_sumo\S011_sumo_video.mp4
+C:\Users\mhasa42\Desktop\test\paper_standard_runs\S011\04_sumo\S011_sumo_video.mp4
 ================================================================================
