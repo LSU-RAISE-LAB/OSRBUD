@@ -1,0 +1,24 @@
+{
+  "wall_time_sec": 18710.08416867256,
+  "methods": [
+    "constant_rule_following",
+    "hcs_i_nlc",
+    "oeac_i",
+    "kinematic_only_optimization",
+    "proposed_full"
+  ],
+  "method_labels": {
+    "constant_rule_following": "RF",
+    "hcs_i_nlc": "HCS-i NLC",
+    "oeac_i": "OEAC-i",
+    "kinematic_only_optimization": "KINO",
+    "proposed_full": "Full"
+  },
+  "num_scenarios": 10,
+  "num_initial_cases": 81,
+  "num_runs": 4050,
+  "long_horizon_N": 240,
+  "time_limit": 300,
+  "mip_gap": 0.001,
+  "reporting_format": "old_reference_format_with_new_HCSi_OEACi_methods"
+}

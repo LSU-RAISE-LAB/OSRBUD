@@ -1,0 +1,22 @@
+{
+  "out_dir": "C:\\Users\\mhasa42\\Desktop\\test",
+  "fig_dir": "C:\\Users\\mhasa42\\Desktop\\test\\figures",
+  "table_dir": "C:\\Users\\mhasa42\\Desktop\\test\\tables",
+  "log_dir": "C:\\Users\\mhasa42\\Desktop\\test\\logs",
+  "compact_solution_dir": "C:\\Users\\mhasa42\\Desktop\\test\\compact_solutions",
+  "num_rows": 4050,
+  "num_columns": 114,
+  "num_numeric_metrics_considered": 103,
+  "num_trajectory_overlay_plots": 108,
+  "folders": {
+    "paper": "C:\\Users\\mhasa42\\Desktop\\test\\figures\\00_paper_subfigures",
+    "bars_all": "C:\\Users\\mhasa42\\Desktop\\test\\figures\\01_bars\\all_runs",
+    "bars_success": "C:\\Users\\mhasa42\\Desktop\\test\\figures\\01_bars\\success_only",
+    "bars_adjusted": "C:\\Users\\mhasa42\\Desktop\\test\\figures\\01_bars\\all_runs_adjusted",
+    "boxplots": "C:\\Users\\mhasa42\\Desktop\\test\\figures\\02_boxplots",
+    "heatmaps": "C:\\Users\\mhasa42\\Desktop\\test\\figures\\03_heatmaps_by_scenario_method",
+    "scatter": "C:\\Users\\mhasa42\\Desktop\\test\\figures\\04_tradeoff_scatter",
+    "energy": "C:\\Users\\mhasa42\\Desktop\\test\\figures\\05_energy_breakdown",
+    "trajectory": "C:\\Users\\mhasa42\\Desktop\\test\\figures\\06_trajectory_overlays"
+  }
+}
