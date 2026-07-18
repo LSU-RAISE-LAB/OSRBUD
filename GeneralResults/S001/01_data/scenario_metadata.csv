@@ -1,7 +1,0 @@
-key,value
-scenario_id,S001
-name,moderate_highway_closure_with_spaced_intersections
-road_type,highway
-traffic_level,moderate
-source,synthetic_realistic_bank
-seed,

@@ -1,0 +1,6 @@
+key,value
+description,"Exact Scenario 10 from the baseline-comparison benchmark, registered as S014 for the general scenario runner."
+main_events,"['SIG 1: zone=[893.6,917.6] m, KSIG=51-123, all candidate Gamma=1', 'SIG 2: zone=[1799.2,1823.2] m, KSIG=133-205, all candidate Gamma=1', 'B010_lane2_soft_window: lane 2 speed cap 9.4 m/s, k=57-91', 'B010_NS1: unsignalized stop/yield range=[1258.2,1276.2] m, KNS=96-142']"
+intended_behavior,
+expected_features,"['signalized intersections only', 'no unsignalized intersections', 'broad safe-to-clear signal candidate windows', 'lane closures and emergency events where specified']"
+vehicle_model,quasi_static_parallel_hybrid_vehicle

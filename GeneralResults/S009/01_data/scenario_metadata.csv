@@ -1,7 +1,0 @@
-key,value
-scenario_id,S009
-name,arterial_multiple_intersections_spaced
-road_type,urban_arterial
-traffic_level,moderate
-source,synthetic_realistic_bank
-seed,

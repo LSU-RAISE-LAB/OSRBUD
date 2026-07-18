@@ -1,0 +1,10 @@
+key,value
+scenario_id,S014
+name,exact_baseline_B010_unsignalized_extension_case
+road_type,signalized_only_rule_rich_urban_arterial
+traffic_level,moderate_hcsi_stress
+source,baseline_comparison_B010_pickle
+seed,
+benchmark_profile,fair_baseline_comparison_profile
+fairness_note,Reduced hard lane closures and only one unsignalized-extension scenario.
+original_scenario_id,B010

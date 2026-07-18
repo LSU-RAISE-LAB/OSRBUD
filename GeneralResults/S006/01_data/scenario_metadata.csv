@@ -1,7 +1,0 @@
-key,value
-scenario_id,S006
-name,two_signalized_controls_with_one_stop
-road_type,suburban_arterial
-traffic_level,light
-source,synthetic_realistic_bank
-seed,

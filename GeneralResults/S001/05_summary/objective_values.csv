@@ -1,9 +1,0 @@
-metric,value
-J_safe_star,0.0
-J_perm_star,0.0
-J_dyn_star,0.0
-J_eco_star,-3768.2890054350273
-solver_status,OPTIMAL
-status_code,2
-mip_gap,3.767879368890714e-05
-runtime_sec,0.17799997329711914

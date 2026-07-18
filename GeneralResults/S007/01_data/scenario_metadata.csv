@@ -1,7 +1,0 @@
-key,value
-scenario_id,S007
-name,free_flow_with_emergency_and_signal
-road_type,highway
-traffic_level,light
-source,synthetic_realistic_bank
-seed,

@@ -1,0 +1,929 @@
+================================================================================================
+PAPER-STANDARD ALL-OUTPUT DRIVING SCENARIO RUN
+================================================================================================
+Run ID       : S014
+Initial lane : 2
+Output root  : C:\Users\mhasa42\Desktop\test\paper_standard_runs\S014
+================================================================================================
+
+Scenario: S014 - exact_baseline_B010_unsignalized_extension_case
+Description: Exact Scenario 10 from the baseline-comparison benchmark, registered as S014 for the general scenario runner.
+Intended behavior: None
+
+Saving all paper-standard input/data plots in one folder...
+Input plots folder: C:\Users\mhasa42\Desktop\test\paper_standard_runs\S014\02_input_plots
+
+Building and solving the Gurobi planning problem...
+Set parameter OutputFlag to value 1
+Set parameter NonConvex to value 2
+Warning: zero or small (< 1e-13) coefficients in quadratic constraints, ignored
+Gurobi Optimizer version 13.0.2 build v13.0.2rc1 (win64 - Windows 11.0 (26100.2))
+
+CPU model: Intel(R) Core(TM) Ultra 9 285K, instruction set [SSE2|AVX|AVX2]
+Thread count: 24 physical cores, 24 logical processors, using up to 24 threads
+
+Non-default parameters:
+NonConvex  2
+
+Optimize a model with 18010 rows, 10671 columns and 62366 nonzeros (Min)
+Model fingerprint: 0xb1fc6ab3
+Model has 2643 linear objective coefficients
+Model has 866 quadratic constraints
+Variable types: 7686 continuous, 2985 integer (2985 binary)
+Coefficient statistics:
+  Matrix range     [6e-08, 8e+04]
+  QMatrix range    [2e-01, 1e+00]
+  QLMatrix range   [7e-08, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [3e-01, 8e+04]
+  RHS range        [6e-01, 2e+04]
+  QRHS range       [1e+02, 2e+03]
+Warning: Model contains large matrix coefficient range
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+
+Presolve removed 13140 rows and 6062 columns
+Presolve time: 0.08s
+Presolved: 6543 rows, 4610 columns, 20845 nonzeros
+Presolved model has 478 bilinear constraint(s)
+
+Solving non-convex MIQCP to global optimality
+
+Variable types: 2619 continuous, 1991 integer (1991 binary)
+
+Root relaxation: objective 0.000000e+00, 914 iterations, 0.00 seconds (0.01 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    0.00000    0  357          -    0.00000      -     -    0s
+     0     0    0.00000    0  334          -    0.00000      -     -    0s
+     0     0    0.00000    0  334          -    0.00000      -     -    0s
+     0     0    0.00000    0  484          -    0.00000      -     -    0s
+     0     0    0.00000    0  326          -    0.00000      -     -    0s
+     0     0    0.00000    0  329          -    0.00000      -     -    0s
+     0     0    0.00000    0  439          -    0.00000      -     -    0s
+     0     0    0.00000    0  335          -    0.00000      -     -    1s
+H    0     0                       0.0000000    0.00000  0.00%     -    1s
+     0     0    0.00000    0  370    0.00000    0.00000  0.00%     -    1s
+
+Cutting planes:
+  Cover: 2
+  RLT: 184
+  Relax-and-lift: 5
+
+Explored 1 nodes (7656 simplex iterations) in 1.44 seconds (1.51 work units)
+Thread count was 24 (of 24 available processors)
+
+Solution count 2: 0 0 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 0.000000000000e+00, best bound 0.000000000000e+00, gap 0.0000%
+Gurobi Optimizer version 13.0.2 build v13.0.2rc1 (win64 - Windows 11.0 (26100.2))
+
+CPU model: Intel(R) Core(TM) Ultra 9 285K, instruction set [SSE2|AVX|AVX2]
+Thread count: 24 physical cores, 24 logical processors, using up to 24 threads
+
+Non-default parameters:
+NonConvex  2
+
+Optimize a model with 18011 rows, 10671 columns and 65009 nonzeros (Min)
+Model fingerprint: 0x67c5dd09
+Model has 960 linear objective coefficients
+Model has 866 quadratic constraints
+Variable types: 7686 continuous, 2985 integer (2985 binary)
+Coefficient statistics:
+  Matrix range     [6e-08, 8e+04]
+  QMatrix range    [2e-01, 1e+00]
+  QLMatrix range   [7e-08, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [3e-01, 8e+04]
+  RHS range        [6e-01, 2e+04]
+  QRHS range       [1e+02, 2e+03]
+Warning: Model contains large matrix coefficient range
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+
+Loaded MIP start from previous solve with objective 960
+
+Presolve removed 13393 rows and 6644 columns
+Presolve time: 0.08s
+Presolved: 6291 rows, 4028 columns, 18634 nonzeros
+Presolved model has 478 bilinear constraint(s)
+
+Solving non-convex MIQCP to global optimality
+
+Found heuristic solution: objective 0.0000000
+Variable types: 2037 continuous, 1991 integer (1991 binary)
+
+Explored 0 nodes (0 simplex iterations) in 0.10 seconds (0.12 work units)
+Thread count was 24 (of 24 available processors)
+
+Solution count 3: 0 0 960 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 0.000000000000e+00, best bound 0.000000000000e+00, gap 0.0000%
+Gurobi Optimizer version 13.0.2 build v13.0.2rc1 (win64 - Windows 11.0 (26100.2))
+
+CPU model: Intel(R) Core(TM) Ultra 9 285K, instruction set [SSE2|AVX|AVX2]
+Thread count: 24 physical cores, 24 logical processors, using up to 24 threads
+
+Non-default parameters:
+NonConvex  2
+
+Optimize a model with 18012 rows, 10671 columns and 65969 nonzeros (Min)
+Model fingerprint: 0xb1210e41
+Model has 479 linear objective coefficients
+Model has 866 quadratic constraints
+Variable types: 7686 continuous, 2985 integer (2985 binary)
+Coefficient statistics:
+  Matrix range     [6e-08, 8e+04]
+  QMatrix range    [2e-01, 1e+00]
+  QLMatrix range   [7e-08, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [3e-01, 8e+04]
+  RHS range        [6e-01, 2e+04]
+  QRHS range       [1e+02, 2e+03]
+Warning: Model contains large matrix coefficient range
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+
+Loaded MIP start from previous solve with objective 37
+
+Presolve removed 12212 rows and 5926 columns
+Presolve time: 0.08s
+Presolved: 7473 rows, 4746 columns, 22690 nonzeros
+Presolved model has 478 bilinear constraint(s)
+
+Solving non-convex MIQCP to global optimality
+
+Found heuristic solution: objective 36.1917161
+Variable types: 2755 continuous, 1991 integer (1991 binary)
+
+Root relaxation: objective 0.000000e+00, 1150 iterations, 0.00 seconds (0.01 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    0.00000    0  377   36.19172    0.00000   100%     -    0s
+     0     0    0.00000    0  377   36.19172    0.00000   100%     -    0s
+H    0     0                      31.3589531    0.00000   100%     -    0s
+     0     0    0.00000    0  436   31.35895    0.00000   100%     -    0s
+H    0     0                      31.0497190    0.00000   100%     -    0s
+     0     0    0.00000    0  434   31.04972    0.00000   100%     -    0s
+     0     0    0.00000    0  495   31.04972    0.00000   100%     -    0s
+     0     0    0.00000    0  356   31.04972    0.00000   100%     -    0s
+H    0     0                      26.1440800    0.00000   100%     -    0s
+H    0     0                       9.4514627    0.00000   100%     -    0s
+     0     0    0.00000    0  363    9.45146    0.00000   100%     -    0s
+     0     0    0.00000    0  385    9.45146    0.00000   100%     -    0s
+     0     0    0.00000    0  391    9.45146    0.00000   100%     -    0s
+     0     0    0.00000    0  328    9.45146    0.00000   100%     -    0s
+     0     0    0.00000    0  332    9.45146    0.00000   100%     -    0s
+     0     0    0.00000    0  368    9.45146    0.00000   100%     -    0s
+     0     0    0.00000    0  320    9.45146    0.00000   100%     -    0s
+H    0     0                       0.0000000    0.00000  0.00%     -    0s
+     0     0    0.00000    0  321    0.00000    0.00000  0.00%     -    0s
+
+Cutting planes:
+  Implied bound: 1
+  MIR: 2
+  RLT: 239
+  Relax-and-lift: 1
+
+Explored 1 nodes (7221 simplex iterations) in 1.20 seconds (1.46 work units)
+Thread count was 24 (of 24 available processors)
+
+Solution count 8: 0 0 9.45146 ... 37
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 0.000000000000e+00, best bound 0.000000000000e+00, gap 0.0000%
+Gurobi Optimizer version 13.0.2 build v13.0.2rc1 (win64 - Windows 11.0 (26100.2))
+
+CPU model: Intel(R) Core(TM) Ultra 9 285K, instruction set [SSE2|AVX|AVX2]
+Thread count: 24 physical cores, 24 logical processors, using up to 24 threads
+
+Non-default parameters:
+NonConvex  2
+
+Optimize a model with 18013 rows, 10671 columns and 66448 nonzeros (Min)
+Model fingerprint: 0xcf3c10a0
+Model has 1203 linear objective coefficients and an objective constant of 1800
+Model has 480 quadratic objective terms
+Model has 866 quadratic constraints
+Variable types: 7686 continuous, 2985 integer (2985 binary)
+Coefficient statistics:
+  Matrix range     [6e-08, 8e+04]
+  QMatrix range    [2e-01, 1e+00]
+  QLMatrix range   [7e-08, 1e+04]
+  Objective range  [1e-06, 6e+03]
+  QObjective range [5e+00, 1e+04]
+  Bounds range     [3e-01, 8e+04]
+  RHS range        [6e-01, 2e+04]
+  QRHS range       [1e+02, 2e+03]
+Warning: Model contains large matrix coefficient range
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+
+Loaded MIP start from previous solve with objective -5333.3
+
+Presolve removed 12460 rows and 6166 columns
+Presolve time: 0.08s
+Presolved: 7226 rows, 4506 columns, 21986 nonzeros
+Presolved model has 480 quadratic objective terms
+Presolved model has 478 bilinear constraint(s)
+
+Solving non-convex MIQCP to global optimality
+
+Variable types: 2516 continuous, 1990 integer (1990 binary)
+
+Root relaxation: objective -9.034454e+03, 8354 iterations, 0.31 seconds (0.41 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 -9034.4536    0  334 -5333.3017 -9034.4536  69.4%     -    0s
+H    0     0                    -5341.659890 -9034.4536  69.1%     -    0s
+     0     0 -8887.6562    0  351 -5341.6599 -8887.6562  66.4%     -    0s
+     0     0 -8887.6562    0  351 -5341.6599 -8887.6562  66.4%     -    1s
+     0     0 -8887.6562    0  351 -5341.6599 -8887.6562  66.4%     -    1s
+     0     0 -8887.6562    0  351 -5341.6599 -8887.6562  66.4%     -    1s
+     0     0 -8887.6562    0  352 -5341.6599 -8887.6562  66.4%     -    1s
+     0     0 -8792.6522    0  277 -5341.6599 -8792.6522  64.6%     -    1s
+     0     0 -8789.2447    0  259 -5341.6599 -8789.2447  64.5%     -    1s
+H    0     0                    -5343.221078 -8789.2445  64.5%     -    1s
+H    0     0                    -5349.169071 -8789.2445  64.3%     -    1s
+     0     0 -8789.0951    0  259 -5349.1691 -8789.0951  64.3%     -    1s
+     0     0 -8788.9076    0  263 -5349.1691 -8788.9076  64.3%     -    1s
+     0     0 -8788.9075    0  263 -5349.1691 -8788.9075  64.3%     -    1s
+     0     0 -8788.8654    0  264 -5349.1691 -8788.8654  64.3%     -    1s
+     0     0 -8788.8651    0  264 -5349.1691 -8788.8651  64.3%     -    1s
+H    0     2                    -5350.571460 -8788.8651  64.3%     -    2s
+     0     2 -8788.8651    0  264 -5350.5715 -8788.8651  64.3%     -    2s
+H  139   211                    -5350.583637 -8770.8717  63.9%   255    4s
+H  169   211                    -5350.585510 -8770.8717  63.9%   211    4s
+H  450  1020                    -5350.600560 -8770.8715  63.9%  83.9    5s
+H 1091  2076                    -8770.070437 -8770.8705  0.01%  37.9    6s
+H 1697  2076                    -8770.103296 -8770.8705  0.01%  26.3    6s
+H 1750  2076                    -8770.107931 -8770.8705  0.01%  25.7    6s
+H 1844  2076                    -8770.111278 -8770.8705  0.01%  24.7    6s
+
+Cutting planes:
+  Gomory: 175
+  Implied bound: 75
+  MIR: 182
+  RLT: 50
+  Relax-and-lift: 22
+  BQP: 14
+
+Explored 2075 nodes (61097 simplex iterations) in 6.22 seconds (7.35 work units)
+Thread count was 24 (of 24 available processors)
+
+Solution count 10: -8770.11 -8770.11 -8770.1 ... -5343.22
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective -8.770111278069e+03, best bound -8.770870462592e+03, gap 0.0087%
+Solve complete.
+
+==============================================================================================================
+Scenario: S014 - exact_baseline_B010_unsignalized_extension_case
+Model   : quasi-static parallel hybrid-vehicle eco-driving
+==============================================================================================================
+SOLVER / OPTIMALITY
+--------------------------------------------------------------------------------------------------------------
+Solver status        : OPTIMAL
+Status code          : 2
+MIP gap              : 8.656e-05
+Runtime              : 6.218 s
+Lexicographic result : OPTIMAL at all four levels if no RuntimeError was raised
+
+LEXICOGRAPHIC OBJECTIVE VALUES
+--------------------------------------------------------------------------------------------------------------
+Level 1: J_safe* = 0
+Level 2: J_perm* = 0
+Level 3: J_dyn*  = 0
+Level 4: J_eco*  = -8770.11128
+
+HYBRID ENERGY / FUEL SUMMARY
+--------------------------------------------------------------------------------------------------------------
+Fuel is consumed only by the engine. The motor uses or charges battery energy.
+
+Total fuel used                    : 0.065063962 kg
+Total fuel used                    : 65.063962 g
+Initial SOC                        : 0.600000 [-] = 60.000 %
+Final SOC                          : 0.595000 [-] = 59.500 %
+Target SOC                         : 0.595000 [-] = 59.500 %
+SOC change                         : -0.005000 [-]
+
+Equivalent-energy metrics:
+  Fuel energy                      : 0.777153 kWh
+  Battery discharge energy         : 0.181166 kWh
+  Equivalent energy                : 0.958319 kWh
+  Equivalent energy per km         : 0.324797 kWh/km
+  Braking-loss proxy               : 0.037361 kWh
+
+Wheel energy demand                : 0.210745 kWh
+Engine mechanical energy           : 0.239540 kWh
+Motor discharge energy             : 0.163049 kWh
+Motor charging/regeneration energy : 0.173518 kWh
+Net battery energy, positive=used  : 0.025000 kWh
+Mechanical braking energy proxy    : 0.037361 kWh
+
+Max engine power                   : 36.962719 kW
+Max motor discharge power          : 27.430387 kW
+Max motor charge power             : 14.513461 kW
+Max battery power                  : 30.478208 kW
+Min battery power                  : -13.062115 kW
+
+SOFT-CONSTRAINT VIOLATION SUMMARY
+--------------------------------------------------------------------------------------------------------------
+Positive slack means the nominal/soft requirement was violated.
+Hard safety constraints are checked separately below.
+
+Nominal safety-margin violations:
+  total slack = 0
+  max slack   = 0
+  count       = 0
+
+Lane-rule / permission violations:
+  total slack = 0
+  max slack   = 0
+  count       = 0
+
+Dynamic-comfort violations:
+  total slack = 0
+  max slack   = 0
+  count       = 0
+
+  acceleration-bound slack total = 0
+  acceleration-bound slack max   = 0
+  acceleration-bound slack count = 0
+  jerk-bound slack total         = 0
+  jerk-bound slack max           = 0
+  jerk-bound slack count         = 0
+
+HARD-CONSTRAINT CHECKS
+--------------------------------------------------------------------------------------------------------------
+Values should be near zero. Positive values indicate numerical/hard-constraint violation.
+speed_cap_max_violation                         : 0.000000000e+00
+hard_current_lane_safety_max_violation          : 0.000000000e+00
+hard_lane_change_safety_max_violation           : 0.000000000e+00
+raw_acc_bound_violation_before_slack            : 0.000000000e+00
+raw_jerk_bound_violation_before_slack           : 0.000000000e+00
+SOC_max_violation                               : 0.000000000e+00
+NS_stop_speed_max_violation                     : 0.000000000e+00
+NS_no_cross_max_violation                       : 0.000000000e+00
+SIG_entry_safe_to_clear_max_violation           : 0.000000000e+00
+SIG_position_consistency_max_violation          : 0.000000000e+00
+SIG_stopping_feasibility_max_violation          : 0.000000000e+00
+SIG_downstream_clearance_max_violation          : 0.000000000e+00
+
+LANE SEQUENCE
+--------------------------------------------------------------------------------------------------------------
+  step  0: lane 2
+  step  1: lane 3
+  step  2: lane 3
+  step  3: lane 3
+  step  4: lane 3
+  step  5: lane 3
+  step  6: lane 3
+  step  7: lane 3
+  step  8: lane 3
+  step  9: lane 3
+  step 10: lane 3
+  step 11: lane 3
+  step 12: lane 3
+  step 13: lane 3
+  step 14: lane 3
+  step 15: lane 3
+  step 16: lane 3
+  step 17: lane 3
+  step 18: lane 3
+  step 19: lane 3
+  step 20: lane 3
+  step 21: lane 3
+  step 22: lane 3
+  step 23: lane 3
+  step 24: lane 3
+  step 25: lane 3
+  step 26: lane 3
+  step 27: lane 3
+  step 28: lane 3
+  step 29: lane 3
+  step 30: lane 3
+  step 31: lane 3
+  step 32: lane 3
+  step 33: lane 3
+  step 34: lane 3
+  step 35: lane 3
+  step 36: lane 3
+  step 37: lane 3
+  step 38: lane 3
+  step 39: lane 3
+  step 40: lane 3
+  step 41: lane 3
+  step 42: lane 3
+  step 43: lane 3
+  step 44: lane 3
+  step 45: lane 3
+  step 46: lane 3
+  step 47: lane 3
+  step 48: lane 3
+  step 49: lane 3
+  step 50: lane 3
+  step 51: lane 3
+  step 52: lane 3
+  step 53: lane 3
+  step 54: lane 3
+  step 55: lane 3
+  step 56: lane 3
+  step 57: lane 3
+  step 58: lane 3
+  step 59: lane 3
+  step 60: lane 3
+  step 61: lane 3
+  step 62: lane 3
+  step 63: lane 3
+  step 64: lane 3
+  step 65: lane 3
+  step 66: lane 3
+  step 67: lane 3
+  step 68: lane 3
+  step 69: lane 3
+  step 70: lane 3
+  step 71: lane 3
+  step 72: lane 3
+  step 73: lane 3
+  step 74: lane 3
+  step 75: lane 3
+  step 76: lane 3
+  step 77: lane 3
+  step 78: lane 3
+  step 79: lane 3
+  step 80: lane 3
+  step 81: lane 3
+  step 82: lane 3
+  step 83: lane 3
+  step 84: lane 3
+  step 85: lane 3
+  step 86: lane 3
+  step 87: lane 3
+  step 88: lane 3
+  step 89: lane 3
+  step 90: lane 3
+  step 91: lane 3
+  step 92: lane 3
+  step 93: lane 3
+  step 94: lane 3
+  step 95: lane 3
+  step 96: lane 3
+  step 97: lane 3
+  step 98: lane 3
+  step 99: lane 3
+  step 100: lane 3
+  step 101: lane 3
+  step 102: lane 3
+  step 103: lane 3
+  step 104: lane 3
+  step 105: lane 3
+  step 106: lane 3
+  step 107: lane 3
+  step 108: lane 3
+  step 109: lane 3
+  step 110: lane 3
+  step 111: lane 3
+  step 112: lane 3
+  step 113: lane 3
+  step 114: lane 3
+  step 115: lane 3
+  step 116: lane 3
+  step 117: lane 3
+  step 118: lane 3
+  step 119: lane 3
+  step 120: lane 3
+  step 121: lane 3
+  step 122: lane 3
+  step 123: lane 3
+  step 124: lane 3
+  step 125: lane 3
+  step 126: lane 3
+  step 127: lane 3
+  step 128: lane 3
+  step 129: lane 3
+  step 130: lane 3
+  step 131: lane 3
+  step 132: lane 3
+  step 133: lane 3
+  step 134: lane 3
+  step 135: lane 3
+  step 136: lane 3
+  step 137: lane 3
+  step 138: lane 3
+  step 139: lane 3
+  step 140: lane 3
+  step 141: lane 3
+  step 142: lane 3
+  step 143: lane 3
+  step 144: lane 3
+  step 145: lane 3
+  step 146: lane 3
+  step 147: lane 3
+  step 148: lane 3
+  step 149: lane 3
+  step 150: lane 3
+  step 151: lane 3
+  step 152: lane 3
+  step 153: lane 3
+  step 154: lane 3
+  step 155: lane 3
+  step 156: lane 3
+  step 157: lane 3
+  step 158: lane 3
+  step 159: lane 3
+  step 160: lane 3
+  step 161: lane 3
+  step 162: lane 3
+  step 163: lane 3
+  step 164: lane 3
+  step 165: lane 3
+  step 166: lane 3
+  step 167: lane 3
+  step 168: lane 3
+  step 169: lane 3
+  step 170: lane 3
+  step 171: lane 3
+  step 172: lane 3
+  step 173: lane 3
+  step 174: lane 3
+  step 175: lane 3
+  step 176: lane 3
+  step 177: lane 3
+  step 178: lane 3
+  step 179: lane 3
+  step 180: lane 3
+  step 181: lane 3
+  step 182: lane 3
+  step 183: lane 3
+  step 184: lane 3
+  step 185: lane 3
+  step 186: lane 3
+  step 187: lane 3
+  step 188: lane 3
+  step 189: lane 3
+  step 190: lane 3
+  step 191: lane 3
+  step 192: lane 3
+  step 193: lane 3
+  step 194: lane 3
+  step 195: lane 3
+  step 196: lane 3
+  step 197: lane 3
+  step 198: lane 3
+  step 199: lane 3
+  step 200: lane 3
+  step 201: lane 3
+  step 202: lane 3
+  step 203: lane 3
+  step 204: lane 3
+  step 205: lane 3
+  step 206: lane 3
+  step 207: lane 3
+  step 208: lane 3
+  step 209: lane 3
+  step 210: lane 3
+  step 211: lane 3
+  step 212: lane 3
+  step 213: lane 3
+  step 214: lane 3
+  step 215: lane 3
+  step 216: lane 3
+  step 217: lane 3
+  step 218: lane 3
+  step 219: lane 3
+  step 220: lane 3
+  step 221: lane 3
+  step 222: lane 3
+  step 223: lane 3
+  step 224: lane 3
+  step 225: lane 3
+  step 226: lane 3
+  step 227: lane 3
+  step 228: lane 3
+  step 229: lane 3
+  step 230: lane 3
+  step 231: lane 3
+  step 232: lane 3
+  step 233: lane 3
+  step 234: lane 3
+  step 235: lane 3
+  step 236: lane 3
+  step 237: lane 3
+  step 238: lane 3
+  step 239: lane 3
+  step 240: lane 3
+
+LANE CHANGES
+--------------------------------------------------------------------------------------------------------------
+  step 0->1: LEFT 2->3
+
+UNSIGNALIZED INTERSECTIONS
+--------------------------------------------------------------------------------------------------------------
+  NS 1: chosen stop-start step = 97, q = 2, tau = 3, active stopped steps = [97, 98, 99], range = [1258.2, 1276.2]
+
+SIGNALIZED INTERSECTIONS
+--------------------------------------------------------------------------------------------------------------
+  SIG 1: chosen entry step = 67, lane = 3, G = 1, Gamma = 1, B_clear = 1, control zone = [893.6, 917.6], approach starts at 798.6
+        candidate/check steps = [51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123]
+        q_go active steps     = [51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123]
+        rSIG active steps     = [68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168, 169, 170, 171, 172, 173, 174, 175, 176, 177, 178, 179, 180, 181, 182, 183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 203, 204, 205, 206, 207, 208, 209, 210, 211, 212, 213, 214, 215, 216, 217, 218, 219, 220, 221, 222, 223, 224, 225, 226, 227, 228, 229, 230, 231, 232, 233, 234, 235, 236, 237, 238, 239, 240]
+  SIG 2: chosen entry step = 149, lane = 3, G = 1, Gamma = 1, B_clear = 1, control zone = [1799.2, 1823.2], approach starts at 1704.2
+        candidate/check steps = [133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168, 169, 170, 171, 172, 173, 174, 175, 176, 177, 178, 179, 180, 181, 182, 183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 203, 204, 205]
+        q_go active steps     = [133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168, 169, 170, 171, 172, 173, 174, 175, 176, 177, 178, 179, 180, 181, 182, 183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 203, 204, 205]
+        rSIG active steps     = [150, 151, 152, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168, 169, 170, 171, 172, 173, 174, 175, 176, 177, 178, 179, 180, 181, 182, 183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 203, 204, 205, 206, 207, 208, 209, 210, 211, 212, 213, 214, 215, 216, 217, 218, 219, 220, 221, 222, 223, 224, 225, 226, 227, 228, 229, 230, 231, 232, 233, 234, 235, 236, 237, 238, 239, 240]
+
+TRAJECTORY AND POWERTRAIN TABLE
+--------------------------------------------------------------------------------------------------------------
+  k | lane |      s[m] |    v[m/s] |   a[m/s2] | Pe[kW] | Pm+[kW] | Pm-[kW] | Pb[kW] | SOC[-] | fuel[g]
+--------------------------------------------------------------------------------------------------------------
+  0 |    2 |     0.000 |    11.000 |     1.449 | 36.963 |   0.000 |   8.498 | -7.648 | 0.6000 |  0.0000
+  1 |    3 |    11.000 |    12.449 |     0.766 |  0.000 |  18.531 |   0.000 | 20.590 | 0.6004 |  2.6874
+  2 |    3 |    23.449 |    13.214 |     0.066 |  0.000 |   4.712 |   0.000 |  5.235 | 0.5993 |  2.6874
+  3 |    3 |    36.663 |    13.281 |     0.004 |  0.000 |   3.393 |   0.000 |  3.770 | 0.5990 |  2.6874
+  4 |    3 |    49.944 |    13.285 |     0.004 |  0.000 |   3.389 |   0.000 |  3.765 | 0.5988 |  2.6874
+  5 |    3 |    63.229 |    13.289 |     0.004 |  0.000 |   3.385 |   0.000 |  3.761 | 0.5986 |  2.6874
+  6 |    3 |    76.518 |    13.294 |     0.004 | 17.814 |   0.000 |  14.433 | -12.990 | 0.5984 |  2.6874
+  7 |    3 |    89.811 |    13.298 |     0.005 | 17.813 |   0.000 |  14.435 | -12.991 | 0.5991 |  4.0344
+  8 |    3 |   103.109 |    13.303 |     0.005 | 17.811 |   0.000 |  14.437 | -12.993 | 0.5998 |  5.3813
+  9 |    3 |   116.412 |    13.307 |     0.005 | 17.809 |   0.000 |  14.438 | -12.995 | 0.6005 |  6.7281
+ 10 |    3 |   129.719 |    13.312 |     0.005 | 17.808 |   0.000 |  14.440 | -12.996 | 0.6012 |  8.0747
+ 11 |    3 |   143.031 |    13.317 |     0.005 | 17.806 |   0.000 |  14.442 | -12.998 | 0.6020 |  9.4213
+ 12 |    3 |   156.348 |    13.321 |     0.005 |  0.000 |   3.361 |   0.000 |  3.734 | 0.6027 | 10.7677
+ 13 |    3 |   169.669 |    13.326 |     0.005 | 17.803 |   0.000 |  14.446 | -13.001 | 0.6025 | 10.7677
+ 14 |    3 |   182.995 |    13.331 |     0.005 | 17.801 |   0.000 |  14.448 | -13.003 | 0.6032 | 12.1139
+ 15 |    3 |   196.327 |    13.336 |     0.005 | 17.799 |   0.000 |  14.450 | -13.005 | 0.6039 | 13.4599
+ 16 |    3 |   209.663 |    13.342 |     0.005 | 17.797 |   0.000 |  14.452 | -13.006 | 0.6047 | 14.8059
+ 17 |    3 |   223.005 |    13.347 |     0.005 | 17.795 |   0.000 |  14.454 | -13.008 | 0.6054 | 16.1516
+ 18 |    3 |   236.352 |    13.352 |     0.005 | 17.793 |   0.000 |  14.456 | -13.010 | 0.6061 | 17.4973
+ 19 |    3 |   249.704 |    13.357 |     0.005 | 17.791 |   0.000 |  14.458 | -13.013 | 0.6068 | 18.8428
+ 20 |    3 |   263.061 |    13.363 |     0.005 |  0.000 |   3.327 |   0.000 |  3.697 | 0.6075 | 20.1881
+ 21 |    3 |   276.424 |    13.368 |     0.005 | 17.786 |   0.000 |  14.464 | -13.017 | 0.6073 | 20.1881
+ 22 |    3 |   289.792 |    13.374 |     0.005 | 17.783 |   0.000 |  14.466 | -13.020 | 0.6081 | 21.5331
+ 23 |    3 |   303.166 |    13.379 |     0.005 |  0.000 |   3.311 |   0.000 |  3.679 | 0.6088 | 22.8780
+ 24 |    3 |   316.545 |    13.385 |     0.005 |  0.000 |   3.304 |   0.000 |  3.672 | 0.6086 | 22.8780
+ 25 |    3 |   329.930 |    13.390 |     0.005 | 17.774 |   0.000 |  14.476 | -13.029 | 0.6084 | 22.8780
+ 26 |    3 |   343.320 |    13.395 |     0.005 |  0.000 |   3.291 |   0.000 |  3.656 | 0.6091 | 24.2221
+ 27 |    3 |   356.715 |    13.401 |     0.005 | 17.767 |   0.000 |  14.484 | -13.036 | 0.6089 | 24.2221
+ 28 |    3 |   370.116 |    13.406 |     0.005 | 17.763 |   0.000 |  14.488 | -13.039 | 0.6096 | 25.5658
+ 29 |    3 |   383.522 |    13.411 |     0.005 |  0.000 |   3.266 |   0.000 |  3.629 | 0.6103 | 26.9092
+ 30 |    3 |   396.933 |    13.416 |     0.005 | 17.754 |   0.000 |  14.497 | -13.048 | 0.6101 | 26.9092
+ 31 |    3 |   410.349 |    13.421 |     0.005 | 17.750 |   0.000 |  14.502 | -13.052 | 0.6109 | 28.2520
+ 32 |    3 |   423.770 |    13.425 |     0.004 | 17.745 |   0.000 |  14.508 | -13.057 | 0.6116 | 29.5945
+ 33 |    3 |   437.195 |    13.430 |     0.004 | 17.739 |   0.000 |  14.513 | -13.062 | 0.6123 | 30.9366
+ 34 |    3 |   450.625 |    13.434 |     0.004 |  0.000 |   3.214 |   0.000 |  3.571 | 0.6130 | 32.2783
+ 35 |    3 |   464.059 |    13.438 |     0.004 |  0.000 |   3.202 |   0.000 |  3.558 | 0.6128 | 32.2783
+ 36 |    3 |   477.497 |    13.442 |     0.003 |  0.000 |   3.189 |   0.000 |  3.543 | 0.6126 | 32.2783
+ 37 |    3 |   490.938 |    13.445 |     0.003 |  0.000 |   3.176 |   0.000 |  3.528 | 0.6125 | 32.2783
+ 38 |    3 |   504.383 |    13.448 |     0.003 |  0.000 |   3.161 |   0.000 |  3.513 | 0.6123 | 32.2783
+ 39 |    3 |   517.831 |    13.451 |     0.002 |  0.000 |   3.146 |   0.000 |  3.496 | 0.6121 | 32.2783
+ 40 |    3 |   531.282 |    13.453 |     0.002 |  0.000 |   3.131 |   0.000 |  3.479 | 0.6119 | 32.2783
+ 41 |    3 |   544.735 |    13.455 |     0.001 |  0.000 |   3.115 |   0.000 |  3.461 | 0.6117 | 32.2783
+ 42 |    3 |   558.189 |    13.456 |     0.001 |  0.000 |   3.098 |   0.000 |  3.442 | 0.6115 | 32.2783
+ 43 |    3 |   571.646 |    13.457 |     0.000 |  0.000 |   3.080 |   0.000 |  3.422 | 0.6113 | 32.2783
+ 44 |    3 |   585.103 |    13.457 |    -0.000 |  0.000 |   3.061 |   0.000 |  3.402 | 0.6111 | 32.2783
+ 45 |    3 |   598.560 |    13.457 |    -0.001 |  0.000 |   3.042 |   0.000 |  3.380 | 0.6109 | 32.2783
+ 46 |    3 |   612.017 |    13.457 |    -0.001 |  0.000 |   3.023 |   0.000 |  3.358 | 0.6107 | 32.2783
+ 47 |    3 |   625.474 |    13.455 |    -0.002 |  0.000 |   3.002 |   0.000 |  3.336 | 0.6105 | 32.2783
+ 48 |    3 |   638.929 |    13.454 |    -0.002 |  0.000 |   2.981 |   0.000 |  3.312 | 0.6104 | 32.2783
+ 49 |    3 |   652.383 |    13.451 |    -0.003 |  0.000 |   2.959 |   0.000 |  3.288 | 0.6102 | 32.2783
+ 50 |    3 |   665.834 |    13.448 |    -0.004 |  0.000 |   2.937 |   0.000 |  3.263 | 0.6100 | 32.2783
+ 51 |    3 |   679.282 |    13.444 |    -0.005 |  0.000 |   2.914 |   0.000 |  3.238 | 0.6098 | 32.2783
+ 52 |    3 |   692.726 |    13.439 |    -0.005 |  0.000 |   2.890 |   0.000 |  3.211 | 0.6096 | 32.2783
+ 53 |    3 |   706.165 |    13.434 |    -0.006 |  0.000 |   2.866 |   0.000 |  3.185 | 0.6094 | 32.2783
+ 54 |    3 |   719.599 |    13.428 |    -0.007 |  0.000 |   2.841 |   0.000 |  3.157 | 0.6093 | 32.2783
+ 55 |    3 |   733.028 |    13.421 |    -0.008 |  0.000 |   2.816 |   0.000 |  3.129 | 0.6091 | 32.2783
+ 56 |    3 |   746.449 |    13.414 |    -0.008 |  0.000 |   2.791 |   0.000 |  3.101 | 0.6089 | 32.2783
+ 57 |    3 |   759.863 |    13.406 |    -0.009 |  0.000 |   2.764 |   0.000 |  3.072 | 0.6087 | 32.2783
+ 58 |    3 |   773.268 |    13.396 |    -0.010 |  0.000 |   2.738 |   0.000 |  3.042 | 0.6086 | 32.2783
+ 59 |    3 |   786.665 |    13.386 |    -0.011 |  0.000 |   2.711 |   0.000 |  3.012 | 0.6084 | 32.2783
+ 60 |    3 |   800.051 |    13.375 |    -0.012 |  0.000 |   2.684 |   0.000 |  2.982 | 0.6082 | 32.2783
+ 61 |    3 |   813.426 |    13.364 |    -0.013 |  0.000 |   2.656 |   0.000 |  2.951 | 0.6081 | 32.2783
+ 62 |    3 |   826.790 |    13.351 |    -0.013 |  0.000 |   2.628 |   0.000 |  2.921 | 0.6079 | 32.2783
+ 63 |    3 |   840.141 |    13.338 |    -0.014 |  0.000 |   2.601 |   0.000 |  2.889 | 0.6077 | 32.2783
+ 64 |    3 |   853.479 |    13.323 |    -0.015 |  0.000 |   2.572 |   0.000 |  2.858 | 0.6076 | 32.2783
+ 65 |    3 |   866.803 |    13.308 |    -0.016 |  0.000 |   2.544 |   0.000 |  2.827 | 0.6074 | 32.2783
+ 66 |    3 |   880.111 |    13.292 |    -0.017 |  0.000 |   2.516 |   0.000 |  2.795 | 0.6073 | 32.2783
+ 67 |    3 |   893.403 |    13.275 |    -0.018 |  0.000 |   2.487 |   0.000 |  2.764 | 0.6071 | 32.2783
+ 68 |    3 |   906.679 |    13.257 |    -0.019 |  0.000 |   2.459 |   0.000 |  2.732 | 0.6070 | 32.2783
+ 69 |    3 |   919.936 |    13.239 |    -0.020 |  0.000 |   2.431 |   0.000 |  2.701 | 0.6068 | 32.2783
+ 70 |    3 |   933.175 |    13.219 |    -0.020 |  0.000 |   2.403 |   0.000 |  2.670 | 0.6067 | 32.2783
+ 71 |    3 |   946.394 |    13.199 |    -0.021 |  0.000 |   2.375 |   0.000 |  2.639 | 0.6065 | 32.2783
+ 72 |    3 |   959.593 |    13.178 |    -0.022 |  0.000 |   2.347 |   0.000 |  2.608 | 0.6064 | 32.2783
+ 73 |    3 |   972.771 |    13.155 |    -0.023 |  0.000 |   2.320 |   0.000 |  2.578 | 0.6062 | 32.2783
+ 74 |    3 |   985.926 |    13.133 |    -0.024 |  0.000 |   2.293 |   0.000 |  2.548 | 0.6061 | 32.2783
+ 75 |    3 |   999.059 |    13.109 |    -0.025 |  0.000 |   2.266 |   0.000 |  2.518 | 0.6059 | 32.2783
+ 76 |    3 |  1012.167 |    13.084 |    -0.025 |  0.000 |   2.240 |   0.000 |  2.489 | 0.6058 | 32.2783
+ 77 |    3 |  1025.252 |    13.059 |    -0.026 |  0.000 |   2.214 |   0.000 |  2.460 | 0.6057 | 32.2783
+ 78 |    3 |  1038.310 |    13.033 |    -0.027 |  0.000 |   2.189 |   0.000 |  2.433 | 0.6055 | 32.2783
+ 79 |    3 |  1051.343 |    13.006 |    -0.027 |  0.000 |   2.165 |   0.000 |  2.405 | 0.6054 | 32.2783
+ 80 |    3 |  1064.349 |    12.979 |    -0.028 |  0.000 |   2.141 |   0.000 |  2.379 | 0.6053 | 32.2783
+ 81 |    3 |  1077.328 |    12.950 |    -0.029 |  0.000 |   2.118 |   0.000 |  2.353 | 0.6051 | 32.2783
+ 82 |    3 |  1090.278 |    12.922 |    -0.029 |  0.000 |   2.095 |   0.000 |  2.328 | 0.6050 | 32.2783
+ 83 |    3 |  1103.200 |    12.892 |    -0.030 |  0.000 |   2.073 |   0.000 |  2.304 | 0.6049 | 32.2783
+ 84 |    3 |  1116.092 |    12.862 |    -0.031 |  0.000 |   2.053 |   0.000 |  2.281 | 0.6047 | 32.2783
+ 85 |    3 |  1128.954 |    12.832 |    -0.031 |  0.000 |   2.032 |   0.000 |  2.258 | 0.6046 | 32.2783
+ 86 |    3 |  1141.786 |    12.800 |    -0.032 |  0.000 |   2.013 |   0.000 |  2.237 | 0.6045 | 32.2783
+ 87 |    3 |  1154.586 |    12.769 |    -0.032 |  0.000 |   1.995 |   0.000 |  2.217 | 0.6044 | 32.2783
+ 88 |    3 |  1167.355 |    12.737 |    -0.032 |  0.000 |   1.978 |   0.000 |  2.198 | 0.6042 | 32.2783
+ 89 |    3 |  1180.092 |    12.705 |    -0.033 |  0.000 |   1.962 |   0.000 |  2.180 | 0.6041 | 32.2783
+ 90 |    3 |  1192.797 |    12.672 |    -0.033 |  0.000 |   1.946 |   0.000 |  2.163 | 0.6040 | 32.2783
+ 91 |    3 |  1205.468 |    12.639 |    -0.567 |  0.000 |   0.000 |   0.000 |  0.000 | 0.6039 | 32.2783
+ 92 |    3 |  1218.107 |    12.072 |    -1.551 |  0.000 |   0.000 |   0.000 |  0.000 | 0.6039 | 32.2783
+ 93 |    3 |  1230.179 |    10.521 |    -2.521 |  0.000 |   0.000 |   0.000 |  0.000 | 0.6039 | 32.2783
+ 94 |    3 |  1240.700 |     8.000 |    -3.000 |  0.000 |   0.000 |   0.000 |  0.000 | 0.6039 | 32.2783
+ 95 |    3 |  1248.700 |     5.000 |    -3.000 |  0.000 |   0.000 |   0.000 |  0.000 | 0.6039 | 32.2783
+ 96 |    3 |  1253.700 |     2.000 |    -2.000 |  0.000 |   0.000 |   0.000 |  0.000 | 0.6039 | 32.2783
+ 97 |    3 |  1255.700 |     0.000 |     0.000 |  0.000 |   0.000 |   0.000 |  0.000 | 0.6039 | 32.2783
+ 98 |    3 |  1255.700 |     0.000 |     0.000 |  0.000 |   0.000 |   0.000 |  0.000 | 0.6039 | 32.2783
+ 99 |    3 |  1255.700 |     0.000 |     2.000 |  0.000 |   0.000 |   0.000 |  0.000 | 0.6039 | 32.2783
+100 |    3 |  1255.700 |     2.000 |     2.000 | 18.680 |   0.000 |  11.876 | -10.688 | 0.6039 | 32.2783
+101 |    3 |  1257.700 |     4.000 |     2.000 | 23.364 |   0.000 |   9.735 | -8.761 | 0.6045 | 33.6859
+102 |    3 |  1261.700 |     6.000 |     2.000 | 28.635 |   0.000 |   8.137 | -7.323 | 0.6050 | 35.4214
+103 |    3 |  1267.700 |     8.000 |     2.000 |  0.000 |  27.430 |   0.000 | 30.478 | 0.6054 | 37.5259
+104 |    3 |  1275.700 |    10.000 |     1.479 | 32.961 |   0.000 |   7.008 | -6.307 | 0.6037 | 37.5259
+105 |    3 |  1285.700 |    11.479 |     0.653 |  0.000 |  14.499 |   0.000 | 16.111 | 0.6040 | 39.9332
+106 |    3 |  1297.179 |    12.132 |    -0.028 |  0.000 |   1.930 |   0.000 |  2.145 | 0.6031 | 39.9332
+107 |    3 |  1309.311 |    12.104 |    -0.031 |  0.000 |   1.864 |   0.000 |  2.072 | 0.6030 | 39.9332
+108 |    3 |  1321.416 |    12.073 |    -0.031 |  0.000 |   1.870 |   0.000 |  2.078 | 0.6029 | 39.9332
+109 |    3 |  1333.489 |    12.042 |    -0.030 |  0.000 |   1.878 |   0.000 |  2.086 | 0.6028 | 39.9332
+110 |    3 |  1345.531 |    12.012 |    -0.029 |  0.000 |   1.886 |   0.000 |  2.095 | 0.6027 | 39.9332
+111 |    3 |  1357.543 |    11.983 |    -0.029 |  0.000 |   1.895 |   0.000 |  2.106 | 0.6025 | 39.9332
+112 |    3 |  1369.526 |    11.954 |    -0.028 |  0.000 |   1.906 |   0.000 |  2.118 | 0.6024 | 39.9332
+113 |    3 |  1381.480 |    11.926 |    -0.027 |  0.000 |   1.918 |   0.000 |  2.131 | 0.6023 | 39.9332
+114 |    3 |  1393.406 |    11.899 |    -0.026 |  0.000 |   1.931 |   0.000 |  2.145 | 0.6022 | 39.9332
+115 |    3 |  1405.304 |    11.872 |    -0.026 |  0.000 |   1.945 |   0.000 |  2.161 | 0.6021 | 39.9332
+116 |    3 |  1417.176 |    11.847 |    -0.025 |  0.000 |   1.960 |   0.000 |  2.177 | 0.6019 | 39.9332
+117 |    3 |  1429.023 |    11.822 |    -0.024 |  0.000 |   1.976 |   0.000 |  2.195 | 0.6018 | 39.9332
+118 |    3 |  1440.845 |    11.798 |    -0.023 |  0.000 |   1.993 |   0.000 |  2.214 | 0.6017 | 39.9332
+119 |    3 |  1452.643 |    11.775 |    -0.022 |  0.000 |   2.011 |   0.000 |  2.234 | 0.6016 | 39.9332
+120 |    3 |  1464.418 |    11.753 |    -0.021 |  0.000 |   2.030 |   0.000 |  2.255 | 0.6015 | 39.9332
+121 |    3 |  1476.172 |    11.733 |    -0.020 |  0.000 |   2.050 |   0.000 |  2.278 | 0.6013 | 39.9332
+122 |    3 |  1487.904 |    11.713 |    -0.019 |  0.000 |   2.071 |   0.000 |  2.301 | 0.6012 | 39.9332
+123 |    3 |  1499.617 |    11.694 |    -0.017 |  0.000 |   2.092 |   0.000 |  2.325 | 0.6011 | 39.9332
+124 |    3 |  1511.312 |    11.677 |    -0.016 |  0.000 |   2.115 |   0.000 |  2.350 | 0.6009 | 39.9332
+125 |    3 |  1522.989 |    11.661 |    -0.015 |  0.000 |   2.138 |   0.000 |  2.376 | 0.6008 | 39.9332
+126 |    3 |  1534.649 |    11.645 |    -0.014 |  0.000 |   2.162 |   0.000 |  2.403 | 0.6007 | 39.9332
+127 |    3 |  1546.295 |    11.632 |    -0.013 |  0.000 |   2.187 |   0.000 |  2.430 | 0.6006 | 39.9332
+128 |    3 |  1557.927 |    11.619 |    -0.011 |  0.000 |   2.213 |   0.000 |  2.459 | 0.6004 | 39.9332
+129 |    3 |  1569.545 |    11.607 |    -0.010 |  0.000 |   2.239 |   0.000 |  2.488 | 0.6003 | 39.9332
+130 |    3 |  1581.153 |    11.597 |    -0.009 |  0.000 |   2.266 |   0.000 |  2.518 | 0.6001 | 39.9332
+131 |    3 |  1592.750 |    11.588 |    -0.008 |  0.000 |   2.294 |   0.000 |  2.549 | 0.6000 | 39.9332
+132 |    3 |  1604.338 |    11.580 |    -0.006 |  0.000 |   2.322 |   0.000 |  2.580 | 0.5999 | 39.9332
+133 |    3 |  1615.918 |    11.574 |    -0.005 |  0.000 |   2.351 |   0.000 |  2.612 | 0.5997 | 39.9332
+134 |    3 |  1627.492 |    11.569 |    -0.004 |  0.000 |   2.380 |   0.000 |  2.644 | 0.5996 | 39.9332
+135 |    3 |  1639.061 |    11.565 |    -0.003 |  0.000 |   2.409 |   0.000 |  2.677 | 0.5994 | 39.9332
+136 |    3 |  1650.626 |    11.562 |    -0.001 |  0.000 |   2.439 |   0.000 |  2.710 | 0.5993 | 39.9332
+137 |    3 |  1662.188 |    11.561 |     0.000 |  0.000 |   2.470 |   0.000 |  2.744 | 0.5991 | 39.9332
+138 |    3 |  1673.749 |    11.561 |     0.001 |  0.000 |   2.501 |   0.000 |  2.779 | 0.5990 | 39.9332
+139 |    3 |  1685.310 |    11.562 |     0.003 |  0.000 |   2.532 |   0.000 |  2.813 | 0.5988 | 39.9332
+140 |    3 |  1696.872 |    11.565 |     0.004 |  0.000 |   2.563 |   0.000 |  2.848 | 0.5987 | 39.9332
+141 |    3 |  1708.437 |    11.569 |     0.005 |  0.000 |   2.595 |   0.000 |  2.883 | 0.5985 | 39.9332
+142 |    3 |  1720.006 |    11.574 |     0.006 |  0.000 |   2.627 |   0.000 |  2.919 | 0.5983 | 39.9332
+143 |    3 |  1731.580 |    11.580 |     0.008 |  0.000 |   2.659 |   0.000 |  2.954 | 0.5982 | 39.9332
+144 |    3 |  1743.160 |    11.588 |     0.009 |  0.000 |   2.691 |   0.000 |  2.990 | 0.5980 | 39.9332
+145 |    3 |  1754.748 |    11.596 |     0.010 |  0.000 |   2.723 |   0.000 |  3.026 | 0.5979 | 39.9332
+146 |    3 |  1766.344 |    11.606 |     0.011 |  0.000 |   2.755 |   0.000 |  3.061 | 0.5977 | 39.9332
+147 |    3 |  1777.950 |    11.617 |     0.012 |  0.000 |   2.787 |   0.000 |  3.097 | 0.5975 | 39.9332
+148 |    3 |  1789.567 |    11.630 |     0.013 |  0.000 |   2.820 |   0.000 |  3.133 | 0.5973 | 39.9332
+149 |    3 |  1801.197 |    11.643 |     0.014 |  0.000 |   2.852 |   0.000 |  3.169 | 0.5972 | 39.9332
+150 |    3 |  1812.840 |    11.657 |     0.015 |  0.000 |   2.884 |   0.000 |  3.204 | 0.5970 | 39.9332
+151 |    3 |  1824.497 |    11.673 |     0.016 |  0.000 |   2.915 |   0.000 |  3.239 | 0.5968 | 39.9332
+152 |    3 |  1836.170 |    11.689 |     0.017 |  0.000 |   2.947 |   0.000 |  3.274 | 0.5966 | 39.9332
+153 |    3 |  1847.859 |    11.707 |     0.018 |  0.000 |   2.978 |   0.000 |  3.309 | 0.5965 | 39.9332
+154 |    3 |  1859.565 |    11.725 |     0.019 |  0.000 |   3.009 |   0.000 |  3.344 | 0.5963 | 39.9332
+155 |    3 |  1871.290 |    11.744 |     0.020 |  0.000 |   3.040 |   0.000 |  3.378 | 0.5961 | 39.9332
+156 |    3 |  1883.035 |    11.765 |     0.021 |  0.000 |   3.071 |   0.000 |  3.412 | 0.5959 | 39.9332
+157 |    3 |  1894.799 |    11.786 |     0.022 |  0.000 |   3.101 |   0.000 |  3.445 | 0.5957 | 39.9332
+158 |    3 |  1906.585 |    11.807 |     0.023 |  0.000 |   3.130 |   0.000 |  3.478 | 0.5955 | 39.9332
+159 |    3 |  1918.392 |    11.830 |     0.023 |  0.000 |   3.159 |   0.000 |  3.510 | 0.5953 | 39.9332
+160 |    3 |  1930.222 |    11.853 |     0.024 |  0.000 |   3.188 |   0.000 |  3.542 | 0.5951 | 39.9332
+161 |    3 |  1942.075 |    11.877 |     0.025 |  0.000 |   3.216 |   0.000 |  3.573 | 0.5949 | 39.9332
+162 |    3 |  1953.953 |    11.902 |     0.025 |  0.000 |   3.243 |   0.000 |  3.604 | 0.5947 | 39.9332
+163 |    3 |  1965.855 |    11.927 |     0.026 | 17.676 |   0.000 |  14.405 | -12.965 | 0.5945 | 39.9332
+164 |    3 |  1977.782 |    11.953 |     0.026 | 17.680 |   0.000 |  14.384 | -12.945 | 0.5952 | 41.2704
+165 |    3 |  1989.735 |    11.979 |     0.027 | 17.684 |   0.000 |  14.362 | -12.926 | 0.5960 | 42.6081
+166 |    3 |  2001.714 |    12.006 |     0.027 |  0.000 |   3.347 |   0.000 |  3.718 | 0.5967 | 43.9459
+167 |    3 |  2013.720 |    12.033 |     0.027 |  0.000 |   3.371 |   0.000 |  3.745 | 0.5965 | 43.9459
+168 |    3 |  2025.753 |    12.061 |     0.028 | 17.692 |   0.000 |  14.298 | -12.868 | 0.5963 | 43.9459
+169 |    3 |  2037.813 |    12.088 |     0.028 |  0.000 |   3.417 |   0.000 |  3.796 | 0.5970 | 45.2844
+170 |    3 |  2049.902 |    12.116 |     0.028 |  0.000 |   3.438 |   0.000 |  3.820 | 0.5968 | 45.2844
+171 |    3 |  2062.018 |    12.145 |     0.029 |  0.000 |   3.459 |   0.000 |  3.843 | 0.5966 | 45.2844
+172 |    3 |  2074.163 |    12.173 |     0.029 |  0.000 |   3.479 |   0.000 |  3.866 | 0.5963 | 45.2844
+173 |    3 |  2086.336 |    12.202 |     0.029 |  0.000 |   3.498 |   0.000 |  3.887 | 0.5961 | 45.2844
+174 |    3 |  2098.538 |    12.231 |     0.029 |  0.000 |   3.517 |   0.000 |  3.907 | 0.5959 | 45.2844
+175 |    3 |  2110.769 |    12.259 |     0.029 |  0.000 |   3.534 |   0.000 |  3.927 | 0.5957 | 45.2844
+176 |    3 |  2123.028 |    12.288 |     0.029 |  0.000 |   3.550 |   0.000 |  3.945 | 0.5955 | 45.2844
+177 |    3 |  2135.317 |    12.317 |     0.029 |  0.000 |   3.566 |   0.000 |  3.962 | 0.5953 | 45.2844
+178 |    3 |  2147.634 |    12.346 |     0.029 |  0.000 |   3.581 |   0.000 |  3.979 | 0.5950 | 45.2844
+179 |    3 |  2159.979 |    12.374 |     0.028 |  0.000 |   3.594 |   0.000 |  3.994 | 0.5948 | 45.2844
+180 |    3 |  2172.354 |    12.403 |     0.028 |  0.000 |   3.607 |   0.000 |  4.008 | 0.5946 | 45.2844
+181 |    3 |  2184.757 |    12.431 |     0.028 |  0.000 |   3.619 |   0.000 |  4.021 | 0.5944 | 45.2844
+182 |    3 |  2197.188 |    12.459 |     0.028 |  0.000 |   3.630 |   0.000 |  4.033 | 0.5942 | 45.2844
+183 |    3 |  2209.647 |    12.487 |     0.028 |  0.000 |   3.640 |   0.000 |  4.044 | 0.5939 | 45.2844
+184 |    3 |  2222.134 |    12.515 |     0.027 |  0.000 |   3.649 |   0.000 |  4.054 | 0.5937 | 45.2844
+185 |    3 |  2234.649 |    12.542 |     0.027 |  0.000 |   3.657 |   0.000 |  4.063 | 0.5935 | 45.2844
+186 |    3 |  2247.191 |    12.569 |     0.026 |  0.000 |   3.664 |   0.000 |  4.071 | 0.5933 | 45.2844
+187 |    3 |  2259.759 |    12.595 |     0.026 |  0.000 |   3.670 |   0.000 |  4.078 | 0.5930 | 45.2844
+188 |    3 |  2272.355 |    12.621 |     0.026 |  0.000 |   3.676 |   0.000 |  4.084 | 0.5928 | 45.2844
+189 |    3 |  2284.976 |    12.647 |     0.025 |  0.000 |   3.680 |   0.000 |  4.089 | 0.5926 | 45.2844
+190 |    3 |  2297.622 |    12.672 |     0.025 |  0.000 |   3.684 |   0.000 |  4.093 | 0.5923 | 45.2844
+191 |    3 |  2310.294 |    12.697 |     0.024 |  0.000 |   3.686 |   0.000 |  4.096 | 0.5921 | 45.2844
+192 |    3 |  2322.991 |    12.721 |     0.024 |  0.000 |   3.688 |   0.000 |  4.098 | 0.5919 | 45.2844
+193 |    3 |  2335.711 |    12.744 |     0.023 |  0.000 |   3.690 |   0.000 |  4.100 | 0.5917 | 45.2844
+194 |    3 |  2348.456 |    12.767 |     0.023 | 17.422 |   0.000 |  13.732 | -12.358 | 0.5914 | 45.2844
+195 |    3 |  2361.223 |    12.790 |     0.022 |  0.000 |   3.690 |   0.000 |  4.100 | 0.5921 | 46.6039
+196 |    3 |  2374.013 |    12.812 |     0.021 |  0.000 |   3.689 |   0.000 |  4.099 | 0.5919 | 46.6039
+197 |    3 |  2386.825 |    12.833 |     0.021 |  0.000 |   3.687 |   0.000 |  4.097 | 0.5917 | 46.6039
+198 |    3 |  2399.658 |    12.854 |     0.020 |  0.000 |   3.685 |   0.000 |  4.094 | 0.5914 | 46.6039
+199 |    3 |  2412.512 |    12.874 |     0.020 | 17.301 |   0.000 |  13.619 | -12.257 | 0.5912 | 46.6039
+200 |    3 |  2425.386 |    12.894 |     0.019 |  0.000 |   3.678 |   0.000 |  4.087 | 0.5919 | 47.9149
+201 |    3 |  2438.280 |    12.913 |     0.018 |  0.000 |   3.674 |   0.000 |  4.082 | 0.5917 | 47.9149
+202 |    3 |  2451.192 |    12.931 |     0.018 |  0.000 |   3.669 |   0.000 |  4.077 | 0.5914 | 47.9149
+203 |    3 |  2464.123 |    12.949 |     0.017 |  0.000 |   3.664 |   0.000 |  4.071 | 0.5912 | 47.9149
+204 |    3 |  2477.072 |    12.966 |     0.016 |  0.000 |   3.658 |   0.000 |  4.065 | 0.5910 | 47.9149
+205 |    3 |  2490.037 |    12.982 |     0.016 |  0.000 |   3.652 |   0.000 |  4.058 | 0.5908 | 47.9149
+206 |    3 |  2503.019 |    12.998 |     0.015 |  0.000 |   3.646 |   0.000 |  4.051 | 0.5905 | 47.9149
+207 |    3 |  2516.017 |    13.013 |     0.015 |  0.000 |   3.639 |   0.000 |  4.043 | 0.5903 | 47.9149
+208 |    3 |  2529.030 |    13.028 |     0.014 |  0.000 |   3.632 |   0.000 |  4.036 | 0.5901 | 47.9149
+209 |    3 |  2542.058 |    13.042 |     0.013 |  0.000 |   3.625 |   0.000 |  4.027 | 0.5899 | 47.9149
+210 |    3 |  2555.100 |    13.055 |     0.013 |  0.000 |   3.617 |   0.000 |  4.019 | 0.5896 | 47.9149
+211 |    3 |  2568.155 |    13.068 |     0.012 |  0.000 |   3.609 |   0.000 |  4.010 | 0.5894 | 47.9149
+212 |    3 |  2581.223 |    13.080 |     0.012 |  0.000 |   3.601 |   0.000 |  4.001 | 0.5892 | 47.9149
+213 |    3 |  2594.303 |    13.092 |     0.011 |  0.000 |   3.593 |   0.000 |  3.992 | 0.5890 | 47.9149
+214 |    3 |  2607.395 |    13.103 |     0.011 |  0.000 |   3.585 |   0.000 |  3.983 | 0.5888 | 47.9149
+215 |    3 |  2620.498 |    13.114 |     0.010 |  0.000 |   3.576 |   0.000 |  3.974 | 0.5885 | 47.9149
+216 |    3 |  2633.611 |    13.124 |     0.010 |  0.000 |   3.568 |   0.000 |  3.965 | 0.5883 | 47.9149
+217 |    3 |  2646.735 |    13.133 |     0.009 |  0.000 |   3.560 |   0.000 |  3.955 | 0.5881 | 47.9149
+218 |    3 |  2659.869 |    13.143 |     0.009 |  0.000 |   3.551 |   0.000 |  3.946 | 0.5879 | 47.9149
+219 |    3 |  2673.011 |    13.151 |     0.008 |  0.000 |   3.543 |   0.000 |  3.937 | 0.5876 | 47.9149
+220 |    3 |  2686.163 |    13.160 |     0.008 | 16.725 |   0.000 |  13.190 | -11.871 | 0.5874 | 47.9149
+221 |    3 |  2699.322 |    13.168 |     0.007 |  0.000 |   3.526 |   0.000 |  3.918 | 0.5881 | 49.1857
+222 |    3 |  2712.490 |    13.175 |     0.007 | 16.672 |   0.000 |  13.154 | -11.839 | 0.5879 | 49.1857
+223 |    3 |  2725.665 |    13.182 |     0.007 | 16.643 |   0.000 |  13.133 | -11.819 | 0.5885 | 50.4527
+224 |    3 |  2738.847 |    13.189 |     0.006 | 16.612 |   0.000 |  13.109 | -11.798 | 0.5892 | 51.7178
+225 |    3 |  2752.036 |    13.195 |     0.006 |  0.000 |   3.495 |   0.000 |  3.883 | 0.5898 | 52.9806
+226 |    3 |  2765.231 |    13.201 |     0.006 | 16.539 |   0.000 |  13.051 | -11.746 | 0.5896 | 52.9806
+227 |    3 |  2778.433 |    13.207 |     0.006 | 16.494 |   0.000 |  13.014 | -11.713 | 0.5903 | 54.2383
+228 |    3 |  2791.640 |    13.213 |     0.005 | 16.443 |   0.000 |  12.970 | -11.673 | 0.5909 | 55.4929
+229 |    3 |  2804.853 |    13.218 |     0.005 |  0.000 |   3.466 |   0.000 |  3.851 | 0.5916 | 56.7439
+230 |    3 |  2818.071 |    13.224 |     0.005 | 16.309 |   0.000 |  12.850 | -11.565 | 0.5914 | 56.7439
+231 |    3 |  2831.295 |    13.228 |     0.005 | 16.220 |   0.000 |  12.767 | -11.491 | 0.5920 | 57.9855
+232 |    3 |  2844.523 |    13.233 |     0.005 | 16.110 |   0.000 |  12.664 | -11.397 | 0.5926 | 59.2209
+233 |    3 |  2857.757 |    13.238 |     0.005 |  0.000 |   3.441 |   0.000 |  3.823 | 0.5933 | 60.4487
+234 |    3 |  2870.995 |    13.242 |     0.004 | 15.791 |   0.000 |  12.356 | -11.121 | 0.5931 | 60.4487
+235 |    3 |  2884.237 |    13.247 |     0.004 | 15.552 |   0.000 |  12.122 | -10.910 | 0.5937 | 61.6540
+236 |    3 |  2897.484 |    13.251 |     0.004 |  0.000 |   3.424 |   0.000 |  3.805 | 0.5943 | 62.8427
+237 |    3 |  2910.735 |    13.256 |     0.004 | 14.774 |   0.000 |  11.355 | -10.219 | 0.5941 | 62.8427
+238 |    3 |  2923.991 |    13.260 |     0.004 | 14.102 |   0.000 |  10.688 | -9.619 | 0.5946 | 63.9768
+239 |    3 |  2937.251 |    13.264 |    -0.018 |  0.000 |   2.922 |   0.000 |  3.247 | 0.5952 | 65.0640
+240 |    3 |  2950.515 |    13.246 |           |        |         |         |        | 0.5950 | 65.0640
+==============================================================================================================
+
+Saving all paper-standard optimal-solution plots in one folder...
+Solution plots folder: C:\Users\mhasa42\Desktop\test\paper_standard_runs\S014\03_solution_plots
+
+Saving scenario data, solution data, metrics, reports, and tables...
+Data folder: C:\Users\mhasa42\Desktop\test\paper_standard_runs\S014\01_data
+Summary folder: C:\Users\mhasa42\Desktop\test\paper_standard_runs\S014\05_summary
+Equivalent energy      : 0.958319 kWh
+Equivalent energy/km   : 0.324797 kWh/km
+Distance               : 2950.515 m
+
+Generating SUMO package in ordered 04_sumo folder...
+================================================================================================
+Realistic SUMO replay package generated
+================================================================================================
+Scenario      : S014 - exact_baseline_B010_unsignalized_extension_case
+Style version : realistic_v2_signalized_intersections
+Output folder : C:\Users\mhasa42\Desktop\test\paper_standard_runs\S014\04_sumo
+Offset        : 305.000 m
+Road length   : 3705.515 m
+Lane width    : 5.000 m
+Video name    : S014_sumo_video.mp4
+Run:
+  cd "C:\Users\mhasa42\Desktop\test\paper_standard_runs\S014\04_sumo"
+  python replay_sumo.py
+================================================================================================
+SUMO package folder: C:\Users\mhasa42\Desktop\test\paper_standard_runs\S014\04_sumo
+SUMO status: {'sumo_dir': 'C:\\Users\\mhasa42\\Desktop\\test\\paper_standard_runs\\S014\\04_sumo', 'replay_script': 'C:\\Users\\mhasa42\\Desktop\\test\\paper_standard_runs\\S014\\04_sumo\\replay_sumo.py', 'video_path': 'C:\\Users\\mhasa42\\Desktop\\test\\paper_standard_runs\\S014\\04_sumo\\S014_sumo_video.mp4', 'video_exists': True, 'video_size_bytes': 1048785, 'ok': True, 'message': 'Video created by replay_sumo.py.', 'backend': 'replay_sumo.py', 'python_used': 'C:\\Users\\mhasa42\\AppData\\Local\\anaconda3\\envs\\raiselab\\python.exe', 'returncode': 0, 'stdout_log': 'C:\\Users\\mhasa42\\Desktop\\test\\paper_standard_runs\\S014\\04_sumo\\sumo_replay_stdout.txt', 'stderr_log': 'C:\\Users\\mhasa42\\Desktop\\test\\paper_standard_runs\\S014\\04_sumo\\sumo_replay_stderr.txt', 'diagnostics_txt': 'C:\\Users\\mhasa42\\Desktop\\test\\paper_standard_runs\\S014\\04_sumo\\video_diagnostics.txt', 'diagnostics_json': 'C:\\Users\\mhasa42\\Desktop\\test\\paper_standard_runs\\S014\\04_sumo\\video_diagnostics.json', 'batch_file': 'C:\\Users\\mhasa42\\Desktop\\test\\paper_standard_runs\\S014\\04_sumo\\run_replay_here.bat', 'mp4_candidates': ['C:\\Users\\mhasa42\\Desktop\\test\\paper_standard_runs\\S014\\04_sumo\\S014_sumo_video.mp4'], 'frame_candidates': [], 'frames_dir': None, 'num_frames': 0, 'errors': []}
+
+================================================================================================
+RUN FINISHED
+================================================================================================
+root           : C:\Users\mhasa42\Desktop\test\paper_standard_runs\S014
+logs           : C:\Users\mhasa42\Desktop\test\paper_standard_runs\S014\00_logs
+data           : C:\Users\mhasa42\Desktop\test\paper_standard_runs\S014\01_data
+input_plots    : C:\Users\mhasa42\Desktop\test\paper_standard_runs\S014\02_input_plots
+solution_plots : C:\Users\mhasa42\Desktop\test\paper_standard_runs\S014\03_solution_plots
+sumo           : C:\Users\mhasa42\Desktop\test\paper_standard_runs\S014\04_sumo
+summary        : C:\Users\mhasa42\Desktop\test\paper_standard_runs\S014\05_summary
+================================================================================================

@@ -1,7 +1,0 @@
-key,value
-scenario_id,RANDOM_002
-name,"Random scenario, N=60, lanes=6"
-road_type,urban_expressway
-traffic_level,moderate_to_dense
-source,synthetic_realistic_bank
-seed,9107826

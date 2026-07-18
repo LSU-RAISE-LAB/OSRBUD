@@ -1,7 +1,0 @@
-key,value
-scenario_id,S002
-name,slow_lead_overtake_then_signal
-road_type,highway
-traffic_level,light_to_moderate
-source,synthetic_realistic_bank
-seed,

@@ -1,7 +1,0 @@
-key,value
-scenario_id,S010
-name,long_horizon_mixed_controls
-road_type,mixed_corridor
-traffic_level,moderate_to_dense
-source,synthetic_realistic_bank
-seed,
